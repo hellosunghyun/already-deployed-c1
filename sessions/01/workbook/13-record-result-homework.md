@@ -58,7 +58,7 @@ GitHub Pages URL:
 ```text
 1회차: 일단 github.io 링크 만들기
 2회차: Home / About / Projects / Posts 구조 만들기
-3회차: 화면을 보며 디자인 수정 요청하기
+3회차: 화면에서 특정 요소/영역을 짚어 디자인 수정 요청하기
 4회차: Notion을 콘텐츠 관리 도구처럼 연결하기
 5회차: README와 운영 방법 정리하기
 ```

@@ -22,10 +22,26 @@
 
 ---
 
+## SwiftUI와 비교하면
+
+SwiftUI는 Apple 앱 화면을 만들 때 쓰기 좋습니다.
+
+Astro는 웹사이트 화면과 페이지를 만들 때 쓰기 좋습니다.
+
+```text
+SwiftUI = 앱 화면 만들기
+Astro   = 웹사이트 만들기
+```
+
+둘 다 화면을 만드는 도구이지만, 오늘 목표는 App Store 앱이 아니라 `github.io` 웹사이트입니다.
+
+---
+
 [← 이전](./08-website-static.md) · [다음 →](./10-why-github.md)
 
 <details><summary>말할 포인트</summary>
 
 Astro가 유일한 정답이라고 말하지 않습니다. React, Next.js, Framer, Webflow, Notion Site 모두 선택지가 될 수 있습니다. 다만 오늘의 목표에는 Astro가 적당합니다.
+SwiftUI와 비교할 때는 "앱 UI 도구와 웹사이트 도구의 차이"만 말합니다. Swift 문법이나 Xcode 프로젝트 구조로 깊게 들어가지 않습니다.
 
 </details>

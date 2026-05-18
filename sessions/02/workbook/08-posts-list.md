@@ -22,6 +22,20 @@ Posts 페이지에 샘플 글 목록을 만듭니다.
 
 나중에 이 샘플 데이터를 Notion에서 가져온 데이터로 바꿀 수 있습니다.
 
+## SwiftUI와 비교해서 이해하기
+
+SwiftUI에서 글 목록을 만든다면 보통 여러 글 데이터를 배열로 두고 `List`나 `ForEach`로 보여주는 방식을 떠올릴 수 있습니다.
+
+| Astro Posts | SwiftUI에서 떠올릴 쉬운 개념 |
+|---|---|
+| 샘플 글 배열 | 글 데이터 배열 |
+| 글 카드 또는 목록 항목 | 글 하나를 보여주는 작은 View |
+| `title`, `date`, `summary`, `tags` | 글 데이터의 속성 |
+| 나중에 Notion 데이터로 교체 | 나중에 다른 데이터로 목록을 채움 |
+
+오늘은 SwiftData, 서버 통신, 앱 상태 관리를 설명하지 않습니다.
+단순히 **여러 개의 글 데이터를 같은 모양으로 보여준다**는 점만 비교합니다.
+
 ## 샘플 글 정보 정리
 
 ```text
@@ -81,8 +95,10 @@ Posts 페이지에 글 목록 기본 구조를 만들고 싶어.
 1. 먼저 현재 Posts 페이지를 확인해줘.
 2. 샘플 데이터를 어디에 둘지 제안해줘.
 3. 나중에 Notion 데이터로 바꿀 때 어떤 부분이 교체될지 설명해줘.
-4. 아직 수정하지 말고 계획만 보여줘.
-5. 내가 승인하면 구현해줘.
+4. 가능하면 SwiftUI의 List나 ForEach와 비교해서 설명해줘.
+5. 단, SwiftData, 서버 통신, 앱 상태 관리는 오늘 범위에서 빼줘.
+6. 아직 수정하지 말고 계획만 보여줘.
+7. 내가 승인하면 구현해줘.
 
 완료 후 알려줄 것:
 1. 변경한 파일 목록
@@ -90,6 +106,7 @@ Posts 페이지에 글 목록 기본 구조를 만들고 싶어.
 3. title, date, summary, tags가 어디에 표시되는지
 4. Notion 연결 전까지 이 구조가 어떤 역할을 하는지
 5. 브라우저 확인 주소
+6. SwiftUI의 List나 ForEach와 비교했을 때 비슷한 점 한 줄
 ```
 
 ## Notion을 붙이려는 AI를 막는 프롬프트
@@ -123,17 +140,38 @@ Notion API, Integration, token, secret은 아직 사용하지 마.
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 오늘 글 제목은 진짜 글이 아니어도 됩니다. 나중에 쓸 글의 자리라고 생각하세요.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 날짜 형식은 `YYYY-MM-DD`처럼 단순하게 시작하세요.
 
-### Hint 3
+</details>
+
+<details>
+<summary>Hint 3</summary>
 
 AI가 글 상세 페이지까지 만들자고 하면 "오늘은 목록까지만"이라고 범위를 줄이세요.
+
+</details>
+
+<details>
+<summary>Hint 4</summary>
+
+SwiftUI 비교가 너무 깊어지면 이렇게 말하세요.
+
+```text
+SwiftUI 비교는 List와 ForEach 정도로만 설명해줘.
+SwiftData, 네트워크 요청, 상태 관리는 오늘 범위에서 빼줘.
+```
+
+</details>
 
 ## 퀴즈
 
@@ -141,14 +179,37 @@ AI가 글 상세 페이지까지 만들자고 하면 "오늘은 목록까지만"
 
 2회차에서 Posts 구조를 만들 때 하지 않는 것은?
 
-A. 샘플 글 목록 만들기  
-B. 글 제목, 날짜, 요약 표시하기  
-C. Notion API token을 코드에 넣기  
+A. 샘플 글 목록 만들기
+B. 글 제목, 날짜, 요약 표시하기
+C. Notion API token을 코드에 넣기
 D. 나중에 Notion으로 바꿀 수 있게 구조 생각하기
 
-### 정답
+<details>
+<summary>정답 보기</summary>
+
+**정답**
 
 C
+
+</details>
+
+### 추가 질문
+
+Posts 목록을 SwiftUI의 `List`와 비교할 때 가장 비슷한 점은 무엇인가요?
+
+A. 여러 글 데이터를 같은 목록 모양으로 보여준다.
+B. GitHub 저장소를 만든다.
+C. 배포 workflow를 실행한다.
+D. Notion secret을 만든다.
+
+<details>
+<summary>정답 보기</summary>
+
+**정답**
+
+A
+
+</details>
 
 ## 커밋 가이드
 

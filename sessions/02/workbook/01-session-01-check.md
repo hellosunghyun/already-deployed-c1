@@ -103,17 +103,26 @@ sessions/01/example-homepage
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 GitHub Pages URL이 안 열려도 2회차를 시작할 수 있습니다. 로컬 프로젝트가 있고 `npm run dev`가 되면 구조 작업은 가능합니다.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 어떤 폴더를 열어야 할지 모르겠다면 `package.json`이 있는 폴더를 찾으세요.
 
-### Hint 3
+</details>
+
+<details>
+<summary>Hint 3</summary>
 
 예제 폴더에서 시작하는 것은 실패가 아닙니다. 워크숍에서는 같은 기준 상태에서 다시 출발하는 것이 더 안전할 때가 있습니다.
+
+</details>
 
 ## 다음 단계
 

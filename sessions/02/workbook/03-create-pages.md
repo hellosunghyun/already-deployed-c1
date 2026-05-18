@@ -23,6 +23,21 @@ src/pages/posts.astro     → /posts
 오늘은 먼저 각 페이지에 임시 제목과 짧은 설명만 넣습니다.
 디자인은 다음 단계에서 Layout을 만든 뒤 정리합니다.
 
+## SwiftUI와 비교해서 이해하기
+
+SwiftUI를 조금이라도 본 적이 있다면 아래처럼 비교해볼 수 있습니다.
+
+| Astro 웹사이트 | SwiftUI 앱 |
+|---|---|
+| `/about` 주소 | About 화면으로 이동 |
+| `src/pages/about.astro` | `AboutView` 같은 화면 파일 |
+| `<a href="/about">About</a>` 링크 | `NavigationLink` |
+| 브라우저 주소창에 직접 입력 가능 | 앱 안에서 버튼이나 목록을 눌러 이동 |
+
+완전히 같은 개념은 아닙니다.
+웹사이트는 주소가 중요하고, iPhone 앱은 앱 안에서 화면을 이동하는 흐름이 중요합니다.
+하지만 둘 다 **사용자가 어디로 이동할 수 있는지 정해두는 구조**라는 점은 같습니다.
+
 ## 공통 프롬프트
 
 ```text
@@ -52,14 +67,17 @@ src/pages/posts.astro     → /posts
 1. 먼저 현재 src/pages 구조를 확인해줘.
 2. 추가하거나 수정할 파일 목록을 제안해줘.
 3. Astro에서 파일 이름이 URL이 되는 방식을 초보자도 이해할 수 있게 설명해줘.
-4. 아직 파일을 만들지 말고 계획만 말해줘.
-5. 내가 승인하면 파일을 만들어줘.
+4. 가능하면 SwiftUI의 NavigationLink나 AboutView 같은 쉬운 화면 이동 개념과 비교해서 설명해줘.
+5. 단, SwiftUI의 어려운 아키텍처 개념은 설명하지 마.
+6. 아직 파일을 만들지 말고 계획만 말해줘.
+7. 내가 승인하면 파일을 만들어줘.
 
 완료 후 알려줄 것:
 1. 생성한 파일 목록
 2. 각 파일이 어떤 URL이 되는지
 3. 브라우저에서 확인할 주소
 4. 다음 단계에서 Layout이 왜 필요한지
+5. SwiftUI와 비교했을 때 비슷한 점과 다른 점 한 줄
 ```
 
 ## 승인 후 추가 프롬프트
@@ -107,15 +125,22 @@ AI가 계획을 잘 설명했다면 이렇게 말합니다.
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 주소가 404라면 `src/pages` 아래 파일 이름을 확인하세요.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 `about.astro`가 아니라 `about/index.astro`로 만들어도 `/about` 주소가 될 수 있습니다. 둘 중 하나만 일관되게 쓰면 됩니다.
 
-### Hint 3
+</details>
+
+<details>
+<summary>Hint 3</summary>
 
 AI가 너무 많은 디자인을 추가하면 이렇게 말하세요.
 
@@ -124,20 +149,57 @@ AI가 너무 많은 디자인을 추가하면 이렇게 말하세요.
 디자인은 다음 Layout 단계에서 정리할 거니까 과한 스타일은 제거해줘.
 ```
 
+</details>
+
+<details>
+<summary>Hint 4</summary>
+
+SwiftUI 비교가 너무 어려워지면 이렇게 말하세요.
+
+```text
+SwiftUI 비교는 NavigationLink와 View 정도로만 설명해줘.
+NavigationStack의 자세한 사용법이나 앱 아키텍처 이야기는 오늘 범위에서 빼줘.
+```
+
+</details>
+
 ## 퀴즈
 
 ### 질문
 
 Astro에서 `src/pages/about.astro` 파일은 보통 어떤 주소가 되나요?
 
-A. `/about`  
-B. `/projects`  
-C. `/posts`  
+A. `/about`
+B. `/projects`
+C. `/posts`
 D. `/src/pages/about`
 
-### 정답
+<details>
+<summary>정답 보기</summary>
+
+**정답**
 
 A
+
+</details>
+
+### 추가 질문
+
+SwiftUI의 `NavigationLink`와 Astro의 `<a href="/about">About</a>` 링크가 비슷한 점은 무엇인가요?
+
+A. 둘 다 사용자를 다른 화면이나 페이지로 이동시킨다.
+B. 둘 다 GitHub 계정을 만든다.
+C. 둘 다 npm 패키지를 설치한다.
+D. 둘 다 Notion API token을 만든다.
+
+<details>
+<summary>정답 보기</summary>
+
+**정답**
+
+A
+
+</details>
 
 ## 커밋 가이드
 

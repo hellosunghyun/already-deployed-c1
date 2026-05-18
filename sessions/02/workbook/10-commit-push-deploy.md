@@ -109,17 +109,26 @@ push는 끝났는데 GitHub Pages 화면이 아직 안 바뀐 것 같아.
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 GitHub Actions는 몇 분 걸릴 수 있습니다. push 직후 바로 반영되지 않아도 잠시 기다려보세요.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 GitHub Pages가 이전 화면을 보여주면 브라우저 새로고침 또는 시크릿 창에서 확인해보세요.
 
-### Hint 3
+</details>
+
+<details>
+<summary>Hint 3</summary>
 
 배포가 실패하면 Actions 탭의 빨간색 실패 항목을 열고, 실패한 단계의 로그를 복사해서 AI에게 주세요.
+
+</details>
 
 ## 퀴즈
 
@@ -132,9 +141,14 @@ B. Mac 배경화면 설정
 C. Notion 워크스페이스  
 D. npm 공식 블로그
 
-### 정답
+<details>
+<summary>정답 보기</summary>
+
+**정답**
 
 A
+
+</details>
 
 ## 다음 단계
 

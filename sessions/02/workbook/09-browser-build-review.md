@@ -104,17 +104,26 @@ npm run build에서 아래 오류가 났어.
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 `npm run dev`가 이미 실행 중이면 새 터미널에서 `npm run build`를 실행해도 됩니다.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 페이지가 하나만 404라면 파일 이름이나 경로 문제일 가능성이 큽니다.
 
-### Hint 3
+</details>
+
+<details>
+<summary>Hint 3</summary>
 
 build 오류는 브라우저에서 보이는 문제보다 더 엄격하게 잡힐 수 있습니다. 오류 메시지를 그대로 복사해 AI에게 주세요.
+
+</details>
 
 ## 퀴즈
 
@@ -127,9 +136,14 @@ B. GitHub 계정을 만들기 위해
 C. 브라우저 주소를 외우기 위해  
 D. Notion token을 만들기 위해
 
-### 정답
+<details>
+<summary>정답 보기</summary>
+
+**정답**
 
 A
+
+</details>
 
 ## 다음 단계
 

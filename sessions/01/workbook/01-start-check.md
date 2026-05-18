@@ -52,17 +52,26 @@
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 AI 도구가 응답하지 않으면 로그인 상태와 네트워크를 먼저 확인하세요.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 GitHub 로그인이 안 되어 있으면 배포 단계에서 막힐 수 있습니다. [GitHub 가입](https://github.com/signup)이 필요하면 지금 만드세요.
 
-### Hint 3
+</details>
+
+<details>
+<summary>Hint 3</summary>
 
 지금 해결이 어렵다면 옆 사람 화면을 보며 흐름을 먼저 이해해도 됩니다. 오늘은 모든 사람이 같은 속도로 끝나지 않아도 됩니다.
+
+</details>
 
 ## 다음 단계
 

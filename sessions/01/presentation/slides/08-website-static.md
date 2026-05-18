@@ -16,10 +16,26 @@
 
 ---
 
+## SwiftUI와 비교하면
+
+SwiftUI 앱은 iPhone이나 Mac 앱 안에서 화면을 보여줍니다.
+
+웹사이트는 브라우저가 파일을 읽어서 화면을 보여줍니다.
+
+```text
+SwiftUI View → 앱 안에서 보이는 화면
+HTML / CSS   → 브라우저에서 보이는 화면
+```
+
+오늘은 SwiftUI 앱이 아니라, 브라우저에서 열리는 웹사이트를 만듭니다.
+
+---
+
 [← 이전](./07-scope.md) · [다음 →](./09-why-astro.md)
 
 <details><summary>말할 포인트</summary>
 
 오늘 참가자가 HTML/CSS/JS를 직접 다 외울 필요는 없습니다. 하지만 AI가 만드는 것도 결국 파일이라는 점은 알아야 합니다. 정적 사이트는 GitHub Pages에 무료로 올리기 좋습니다.
+SwiftUI를 아는 참가자가 있다면 "SwiftUI View는 앱 화면, HTML/CSS는 브라우저 화면" 정도로만 비교합니다. 상태 관리나 앱 생명주기는 오늘 범위가 아닙니다.
 
 </details>

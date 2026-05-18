@@ -77,13 +77,19 @@ https://hello123.github.io
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 저장소 이름이 정확해야 `https://<username>.github.io` 주소가 자연스럽게 만들어집니다.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 이미 같은 이름의 저장소가 있다면 기존 개인 홈페이지가 있을 수 있습니다. 지우지 말고 도움을 요청하세요.
+
+</details>
 
 ## 퀴즈
 
@@ -96,9 +102,14 @@ B. `portfolio`
 C. `<github-username>.github.io`  
 D. `astro-project`
 
-### 정답
+<details>
+<summary>정답 보기</summary>
+
+**정답**
 
 C
+
+</details>
 
 ## 다음 단계
 

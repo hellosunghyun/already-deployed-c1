@@ -84,17 +84,26 @@
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 `package.json`이 보이지 않는다면 프로젝트 루트가 아닐 수 있습니다.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 `git status`에 변경 파일이 이미 많다면 바로 작업하지 말고 먼저 AI에게 "이 변경사항이 무엇인지" 물어보세요.
 
-### Hint 3
+</details>
+
+<details>
+<summary>Hint 3</summary>
 
 `astro.config.mjs`의 `site` 값은 GitHub Pages 배포와 관련될 수 있습니다. 오늘 구조 작업 중 실수로 지우지 않게 합니다.
+
+</details>
 
 ## 퀴즈
 
@@ -107,9 +116,14 @@ B. 이미 수정된 파일이 있는지 확인해 실수로 덮어쓰지 않기 
 C. GitHub 계정을 새로 만들기 위해  
 D. localhost 주소를 바꾸기 위해
 
-### 정답
+<details>
+<summary>정답 보기</summary>
+
+**정답**
 
 B
+
+</details>
 
 ## 다음 단계
 

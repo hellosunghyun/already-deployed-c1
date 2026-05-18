@@ -126,17 +126,26 @@ About 페이지 문장이 아직 어색해.
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 About은 길수록 좋은 페이지가 아닙니다. 3~5개 짧은 단락이면 충분합니다.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 할 말이 없다면 "지금 배우는 것"과 "앞으로 만들고 싶은 것"부터 쓰세요.
 
-### Hint 3
+</details>
+
+<details>
+<summary>Hint 3</summary>
 
 AI에게 내 정보를 너무 적게 주면 추상적인 문장이 나옵니다. 구체적인 단어를 3개 이상 주세요.
+
+</details>
 
 ## 퀴즈
 
@@ -149,9 +158,14 @@ B. 방문자가 내가 어떤 사람인지 이해하게 하는 곳
 C. npm 패키지를 설치하는 곳  
 D. GitHub Actions 로그를 저장하는 곳
 
-### 정답
+<details>
+<summary>정답 보기</summary>
+
+**정답**
 
 B
+
+</details>
 
 ## 커밋 가이드
 

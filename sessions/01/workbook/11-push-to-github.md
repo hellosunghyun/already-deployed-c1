@@ -52,15 +52,22 @@ GitHub CLI를 사용해서 GitHub 인증 상태를 확인해줘.
 
 ## 힌트
 
-### Hint 1
+<details>
+<summary>Hint 1</summary>
 
 GitHub 웹사이트에서 파일이 보이면 push는 성공한 것입니다.
 
-### Hint 2
+</details>
+
+<details>
+<summary>Hint 2</summary>
 
 권한 오류가 나면 GitHub 로그인 또는 인증 문제가 있을 수 있습니다.
 
-### Hint 3
+</details>
+
+<details>
+<summary>Hint 3</summary>
 
 에러가 나면 이렇게 질문하세요.
 
@@ -70,6 +77,8 @@ GitHub에 push하는 단계에서 아래 오류가 났어.
 
 [오류 붙여넣기]
 ```
+
+</details>
 
 ## 퀴즈
 
@@ -82,9 +91,14 @@ B. 내 컴퓨터의 변경 사항을 GitHub로 올리는 것
 C. 디자인을 바꾸는 것  
 D. npm 패키지를 설치하는 것
 
-### 정답
+<details>
+<summary>정답 보기</summary>
+
+**정답**
 
 B
+
+</details>
 
 ## 다음 단계
 
