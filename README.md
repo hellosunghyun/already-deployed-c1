@@ -1,102 +1,157 @@
-# 배포했는데요? 1기 — 1회차 자료 저장소
+# 배포했는데요? 1기 — 수업 자료 저장소
 
-이 저장소는 **1회차 수업을 Markdown 문서만으로 진행하기 위한 자료 묶음**입니다.
-PPT나 Slidev 없이, Markdown 뷰어에서 문서를 넘겨가며 설명하고 실습합니다.
+이 저장소는 **배포했는데요? 1기** 전체 수업 자료를 Markdown 문서로 관리하기 위한 저장소입니다.
+PPT나 Slidev 없이, Markdown 뷰어에서 발표자료를 넘기고 워크북을 따라 실습하는 방식으로 운영합니다.
 
-## 오늘의 목표
+1회차만 담는 저장소가 아니라, 여러 회차를 같은 형식으로 누적하는 자료 저장소입니다.
 
-**[Astro](https://astro.build/) 개인 홈페이지 첫 버전을 만들고, [GitHub Pages](https://pages.github.com/)로 배포해 `github.io` 링크 하나를 갖습니다.**
+## 과정 목표
 
-오늘의 진짜 목표는 단순히 홈페이지를 만드는 것이 아닙니다.
+참가자는 AI 코딩 에이전트와 함께 [Astro](https://astro.build/) 기반 개인 홈페이지를 만들고, [GitHub Pages](https://pages.github.com/)에 배포하며, 점진적으로 운영 가능한 개인 홈페이지 구조를 갖춥니다.
 
-- [Codex](https://chatgpt.com/codex) 같은 코딩 에이전트에게 일을 맡기는 법
-- 목표와 맥락을 충분히 주는 법
-- 실행 전에 계획을 확인하는 법
-- 결과를 브라우저와 로그로 검증하는 법
-- [Git](https://git-scm.com/)과 [GitHub](https://github.com/)를 이용해 안전하게 작업을 저장하는 법
+최종적으로 아래 흐름을 경험하는 것이 목표입니다.
 
-을 함께 익히는 것입니다.
-
-## 자료 구조
-
-### 발표자료
-
-발표자료는 슬라이드별 Markdown 파일로 나누었습니다.
-
-- [발표자료 인덱스](./sessions/01/presentation/README.md)
-- [Slide 01. 표지](./sessions/01/presentation/slides/01-title.md)
-- [Slide 02. 오늘의 성공 기준](./sessions/01/presentation/slides/02-success.md)
-- [Slide 03. vibe coding 다시 정의하기](./sessions/01/presentation/slides/03-vibe-coding.md)
-- [Slide 04. AI에게 맥락이 필요한 이유](./sessions/01/presentation/slides/04-context.md)
-- [Slide 05. 좋은 요청의 9요소](./sessions/01/presentation/slides/05-good-request.md)
-- [Slide 06. 코딩 에이전트 공통 루프](./sessions/01/presentation/slides/06-agent-loop.md)
-- [Slide 07. 오늘 깊게 안 들어갈 것](./sessions/01/presentation/slides/07-scope.md)
-- [Slide 08. 웹사이트와 정적 사이트](./sessions/01/presentation/slides/08-website-static.md)
-- [Slide 09. 왜 Astro인가](./sessions/01/presentation/slides/09-why-astro.md)
-- [Slide 10. 왜 GitHub가 필요한가](./sessions/01/presentation/slides/10-why-github.md)
-- [Slide 11. Git과 commit을 왜 써야 하나](./sessions/01/presentation/slides/11-git-commit.md)
-- [Slide 12. GitHub Pages란](./sessions/01/presentation/slides/12-github-pages.md)
-- [Slide 13. 오늘 만들 흐름](./sessions/01/presentation/slides/13-flow.md)
-- [Slide 14. Codex 데모 흐름](./sessions/01/presentation/slides/14-codex-demo.md)
-- [Slide 15. 다른 도구 사용자는 어떻게 따라오나](./sessions/01/presentation/slides/15-other-tools.md)
-- [Slide 16. 다음 세션에는 무엇이 달라지나](./sessions/01/presentation/slides/16-next-sessions.md)
-- [Slide 17. Notion은 왜 나중에 쓰나](./sessions/01/presentation/slides/17-why-notion-later.md)
-- [Slide 18. 워크북 사용법](./sessions/01/presentation/slides/18-workbook.md)
-
-### 워크북
-
-워크북은 단계별로 작게 나누었습니다. 각 파일은 **다음 단계로 넘어가기 전 확인할 Ready Gate**, **힌트**, **퀴즈**, **한국어 프롬프트**를 포함합니다.
-
-- [워크북 인덱스](./sessions/01/workbook/README.md)
-- [00. 워크북 사용법](./sessions/01/workbook/00-how-to-use.md)
-- [01. 시작 전 체크](./sessions/01/workbook/01-start-check.md)
-- [02. AI 에이전트 사용 원칙](./sessions/01/workbook/02-ai-agent-principles.md)
-- [03. Codex에서 프로젝트 폴더 열기](./sessions/01/workbook/03-open-folder-in-codex.md)
-- [04. 환경 확인과 설치](./sessions/01/workbook/04-environment-check-install.md)
-- [05. AGENTS.md / CLAUDE.md 만들기](./sessions/01/workbook/05-agent-instruction-file.md)
-- [06. Astro 프로젝트 만들기](./sessions/01/workbook/06-create-astro-project.md)
-- [07. localhost에서 확인하기](./sessions/01/workbook/07-run-local-preview.md)
-- [08. Home 페이지 초안 만들기](./sessions/01/workbook/08-homepage-draft.md)
-- [09. Git 기초와 자주 commit하기](./sessions/01/workbook/09-git-basics-commit.md)
-- [10. GitHub 저장소 만들기](./sessions/01/workbook/10-create-github-repo.md)
-- [11. GitHub에 코드 올리기](./sessions/01/workbook/11-push-to-github.md)
-- [12. GitHub Pages 배포하기](./sessions/01/workbook/12-deploy-github-pages.md)
-- [13. 결과 기록과 다음 숙제](./sessions/01/workbook/13-record-result-homework.md)
-
-### 1회차 완료 예제
-
-워크북을 끝까지 진행하지 못한 참가자는 아래 예제를 기준 상태로 사용할 수 있습니다.
-
-- [1회차 완료 예제 코드베이스](./sessions/01/example-homepage)
-- [예제 실행 방법](./sessions/01/example-homepage/README.md)
-
-실행:
-
-```bash
-cd sessions/01/example-homepage
-npm install
-npm run dev
+```text
+AI에게 목표와 맥락 전달
+→ 계획 확인
+→ 구현
+→ 브라우저와 로그로 검증
+→ commit
+→ GitHub push
+→ GitHub Pages 배포
+→ 다음 개선점 기록
 ```
 
-### 템플릿
+## 자료 Depth
 
-- [AGENTS.md 템플릿](./sessions/01/templates/AGENTS.md)
-- [CLAUDE.md 템플릿](./sessions/01/templates/CLAUDE.md)
-- [GitHub Pages 배포 workflow 예시](./sessions/01/templates/deploy.yml)
+이 저장소는 자료를 아래 depth로 나눕니다.
 
-### 참고 링크
+```text
+Depth 0. 과정 전체
+  README.md
+  resources/
 
-- [참고 링크 모음](./resources/references.md)
+Depth 1. 회차
+  sessions/01/
+  sessions/02/
+
+Depth 2. 회차별 자료 유형
+  presentation/
+  workbook/
+  templates/
+  example-homepage/  # 있는 회차만
+
+Depth 3. 실제 진행 파일
+  presentation/slides/*.md
+  workbook/*.md
+  templates/*.md
+```
+
+루트 README는 전체 과정의 지도 역할만 합니다.
+각 회차의 자세한 발표자료 목록과 워크북 단계는 해당 회차의 `README.md`에서 확인합니다.
+
+## 회차별 인덱스
+
+| 회차 | 상태 | 주제 | 핵심 결과물 | 자료 |
+|---|---|---|---|---|
+| 1회차 | 작성됨 | AI 에이전트와 함께 첫 배포 루프 만들기 | Astro 첫 버전, GitHub 저장소, GitHub Pages URL | [sessions/01](./sessions/01/) |
+| 2회차 | 작성됨 | 홈페이지를 읽히는 구조로 나누기 | Home / About / Projects / Posts, Layout, Navigation | [sessions/02](./sessions/02/) |
+| 3회차 | 예정 | AI에게 디자인 수정과 요구사항을 정확히 전달하기 | 스크린샷 기반 수정, 모바일 확인, 디자인 개선 | 준비 예정 |
+| 4회차 | 예정 | Notion을 콘텐츠 관리 도구처럼 연결하기 | Notion DB, Integration, Notion 기반 Posts | 준비 예정 |
+| 5회차 | 예정 | 운영 가능한 개인 홈페이지로 마무리하기 | README, 배포 체크리스트, 선택 도메인, 최종 제출 | 준비 예정 |
+
+## 회차 폴더 구조
+
+각 회차는 가능한 한 같은 구조를 사용합니다.
+
+```text
+sessions/XX/
+├── README.md
+├── presentation/
+│   ├── README.md
+│   └── slides/
+├── workbook/
+│   ├── README.md
+│   └── 단계별 실습 문서
+├── templates/
+└── example-homepage/
+```
+
+### `presentation/`
+
+진행자가 앞부분에서 짧게 설명할 Markdown 슬라이드입니다.
+목표는 긴 강의가 아니라, 워크북에서 헷갈릴 개념을 미리 풀어주는 것입니다.
+
+### `workbook/`
+
+참가자가 직접 따라가는 실습 문서입니다.
+각 단계는 가능한 한 아래 구조를 따릅니다.
+
+- 목표
+- 왜 하는가
+- 쉬운 설명
+- AI에게 보낼 프롬프트
+- 체크박스
+- Ready Gate
+- 힌트
+- 퀴즈
+- 커밋 가이드
+
+### `templates/`
+
+참가자가 복사해서 채울 수 있는 템플릿입니다.
+회차에 따라 `AGENTS.md`, `CLAUDE.md`, 프로젝트 카드 데이터, 글 목록 데이터 등이 들어갑니다.
+
+### `example-homepage/`
+
+해당 회차를 끝까지 완료하지 못한 참가자가 기준 상태로 사용할 수 있는 예제입니다.
+예제는 원본을 직접 수정하기보다, 개인 작업 폴더로 복사하거나 sparse checkout 해서 사용하는 것을 권장합니다.
+
+## 현재 포함된 자료
+
+### 1회차
+
+- [1회차 자료](./sessions/01/)
+- [1회차 발표자료](./sessions/01/presentation/README.md)
+- [1회차 워크북](./sessions/01/workbook/README.md)
+- [1회차 완료 예제](./sessions/01/example-homepage/)
+- 목표: `github.io` 링크까지 이어지는 첫 배포 루프 만들기
+
+### 2회차
+
+- [2회차 자료](./sessions/02/)
+- [2회차 발표자료](./sessions/02/presentation/README.md)
+- [2회차 워크북](./sessions/02/workbook/README.md)
+- [2회차 템플릿](./sessions/02/templates/)
+- 목표: Home / About / Projects / Posts 구조와 공통 Layout 만들기
 
 ## 진행 방식
 
-1. 앞부분은 [발표자료](./sessions/01/presentation/README.md)를 보며 설명합니다.
-2. 이후 참가자는 [워크북](./sessions/01/workbook/README.md)을 따라 각자 진행합니다.
-3. 진행자는 중간중간 전체 체크만 합니다.
-4. 막히면 먼저 해당 단계의 **힌트**를 봅니다.
-5. 그래도 안 되면 AI에게 질문하거나 도움을 요청합니다.
+각 회차는 아래 흐름을 기본으로 합니다.
 
-## 오늘의 핵심 문장
+```text
+0~5분: 오늘 결과물과 성공 기준
+5~25분: 필요한 개념 설명
+25~30분: Codex 기준 데모
+30분 이후: 워크북 Sprint 실습
+마지막 10분: 결과 기록 / 막힌 지점 / 숙제 안내
+```
+
+현장 상황에 따라 설명 시간이 늘어날 수 있지만, 핵심은 참가자가 워크북을 보고 스스로 이어갈 수 있게 하는 것입니다.
+
+## 공통 원칙
+
+- 설명은 [Codex](https://chatgpt.com/codex) 기준으로 하되, [Claude Code](https://docs.claude.com/en/docs/claude-code), [Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity) 사용자가 따라올 수 있게 프롬프트를 일반화합니다.
+- AI에게 바로 실행시키지 않고 먼저 계획을 받습니다.
+- 새 라이브러리, secret, 삭제 명령은 조심스럽게 다룹니다.
+- 결과는 브라우저, 로그, `npm run build`, GitHub Actions, GitHub Pages URL로 확인합니다.
+- 변경사항은 작은 단위로 commit합니다.
+
+## 참고 링크
+
+- [참고 링크 모음](./resources/references.md)
+
+## 과정의 핵심 문장
 
 > AI에게 코딩을 맡기는 것은 책임을 넘기는 것이 아닙니다.  
 > 반복 작업을 위임하고, 검증 책임을 더 명확히 갖는 것입니다.
