@@ -19,6 +19,16 @@
 → GitHub Pages 확인
 ```
 
+각 단어는 아래 정도로만 이해하면 됩니다.
+
+```text
+commit = 지금까지의 변경사항을 저장점으로 남김
+push = 내 컴퓨터의 commit을 GitHub에 올림
+GitHub Actions = GitHub에서 배포 작업이 실행되는 곳
+GitHub Pages = 방문자가 보는 실제 홈페이지 주소
+deploy = GitHub Pages에 새 결과가 반영되는 일
+```
+
 ## 공통 프롬프트
 
 이 프롬프트는 일부러 자세합니다.

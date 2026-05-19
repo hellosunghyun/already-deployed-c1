@@ -2,6 +2,7 @@
 
 이 발표자료는 Markdown 뷰어에서 슬라이드처럼 한 장씩 넘겨가며 설명하기 위한 자료입니다.
 각 슬라이드는 별도 파일로 나누었습니다.
+슬라이드 파일명은 발표 순서가 바로 보이도록 `01.md`부터 `27.md`까지 숫자로만 둡니다.
 
 ## 발표 시간 목표
 
@@ -35,32 +36,61 @@
 
 | 시간 | 슬라이드 | 진행 방식 |
 |---|---|---|
-| 0:00-0:05 | 01-02 | 오늘의 성공 기준과 최소 목표 확인 |
-| 0:05-0:12 | 03-05 | 왜 한 페이지를 여러 페이지로 나누는지 설명 |
-| 0:12-0:18 | 06-06A | 페이지와 섹션 구분을 짧게 연습 |
-| 0:18-0:24 | 07-09A | URL, Layout, Component를 쉬운 비유로 설명 |
-| 0:24-0:28 | 10-11A | Notion을 미루는 이유와 Codex 데모 흐름 |
-| 0:28-0:30 | 12 | 워크북으로 전환 |
+| 0:00-0:05 | 01-04 | 2회차의 위치, 오늘 범위, 성공 기준 확인 |
+| 0:05-0:13 | 05-12 | 1회차 결과를 유지하며 Home / About / Projects / Posts 구조로 나누는 이유 설명 |
+| 0:13-0:18 | 13-16 | 페이지와 섹션, Astro 라우팅, SwiftUI 화면 이동 비교 |
+| 0:18-0:24 | 17-21 | Layout, Navigation, Component, JSON, slug를 쉬운 말로 연결 |
+| 0:24-0:27 | 22-24 | Posts를 미리 만드는 이유와 검증, commit / push / deploy 흐름 |
+| 0:27-0:29 | 25 | Codex와 안전하게 작업하는 흐름 확인 |
+| 0:29-0:30 | 26-27 | 마지막 기록 기준과 워크북 전환 |
 
 각 슬라이드를 길게 읽기보다, 참가자에게 "이건 페이지인가요, 섹션인가요?"처럼 짧은 질문을 던지며 진행합니다.
 
+## 슬라이드 파일 구성
+
+각 슬라이드 파일은 아래 구조를 따릅니다.
+
+```text
+화면에 직접 보여줄 내용
+→ 슬라이드 모습과 강조점
+→ 발표자 노트
+```
+
+`슬라이드 모습과 강조점`은 발표 화면을 만들 때 참고하는 메모입니다.
+어떤 내용을 크게 보여줄지, 무엇을 강조할지 적습니다.
+
+`발표자 노트`는 발표자가 실제로 말할 흐름만 적습니다.
+슬라이드 배치나 화면 구성 설명은 발표자 노트에 넣지 않습니다.
+
 ## 슬라이드 목록
 
-1. [표지](./slides/01-title.md)
-2. [오늘의 성공 기준](./slides/02-success.md)
-3. [1회차 결과는 시작점](./slides/03-from-deploy-to-structure.md)
-4. [홈페이지는 탐색 공간](./slides/04-homepage-as-navigation-space.md)
-5. [Home / About / Projects / Posts](./slides/05-four-page-roles.md)
-6. [페이지와 섹션](./slides/06-page-vs-section.md)
-7. [페이지와 섹션 미니 연습](./slides/06a-page-section-exercise.md)
-8. [Astro 파일 기반 라우팅](./slides/07-astro-routing.md)
-9. [Layout과 Navigation](./slides/08-layout-navigation.md)
-10. [Component와 데이터](./slides/09-component-data.md)
-11. [Component를 코드 없이 이해하기](./slides/09a-component-data-analogy.md)
-12. [Posts를 미리 만드는 이유](./slides/10-posts-before-notion.md)
-13. [Codex 데모 흐름](./slides/11-codex-demo.md)
-14. [데모를 볼 때 확인할 것](./slides/11a-demo-watch-points.md)
-15. [워크북으로 이동](./slides/12-workbook.md)
+1. [표지](./slides/01.md)
+2. [2회차의 위치](./slides/02.md)
+3. [오늘 다루는 범위](./slides/03.md)
+4. [성공 기준은 세 단계](./slides/04.md)
+5. [1회차 결과를 버리지 않습니다](./slides/05.md)
+6. [홈페이지는 입구입니다](./slides/06.md)
+7. [정보를 네 갈래로 나눕니다](./slides/07.md)
+8. [Home은 첫인상과 안내입니다](./slides/08.md)
+9. [About은 소개 흐름입니다](./slides/09.md)
+10. [Projects는 사례 목록입니다](./slides/10.md)
+11. [Posts는 글 중심 기록입니다](./slides/11.md)
+12. [오늘 만드는 기본 형태](./slides/12.md)
+13. [페이지와 섹션은 다릅니다](./slides/13.md)
+14. [페이지와 섹션을 구분해봅니다](./slides/14.md)
+15. [Astro에서는 파일이 주소가 됩니다](./slides/15.md)
+16. [SwiftUI와 비교하면 이동의 문제입니다](./slides/16.md)
+17. [Layout은 공통 바깥 틀입니다](./slides/17.md)
+18. [Navigation은 안내판입니다](./slides/18.md)
+19. [Component는 반복되는 화면 틀입니다](./slides/19.md)
+20. [JSON은 정보 파일입니다](./slides/20.md)
+21. [slug는 주소에 쓰는 짧은 이름입니다](./slides/21.md)
+22. [Posts를 미리 만드는 이유](./slides/22.md)
+23. [만든 뒤에는 검증합니다](./slides/23.md)
+24. [검증 후 GitHub에 올립니다](./slides/24.md)
+25. [Codex와 작업할 때의 흐름](./slides/25.md)
+26. [마지막에는 기록합니다](./slides/26.md)
+27. [워크북으로 이동](./slides/27.md)
 
 ## 발표 후 이동
 

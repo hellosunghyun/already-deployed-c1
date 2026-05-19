@@ -149,7 +149,7 @@ Projects와 Posts는 오늘 다룹니다.
 | 1회차를 끝내지 못함 | 예제 폴더에서 시작해도 됩니다. 오늘 배울 구조는 똑같습니다. |
 | 페이지와 섹션을 헷갈림 | 주소가 따로 있으면 페이지, 한 화면 안의 구역이면 섹션입니다. |
 | `Layout`이 어려움 | 모든 페이지가 같이 입는 공통 옷이라고 생각하면 됩니다. |
-| `Component`와 `array`가 어려움 | 카드 양식 하나에 여러 내용을 바꿔 끼우는 구조입니다. |
+| `Component`와 `JSON`이 어려움 | 카드 양식 하나에 여러 내용을 바꿔 끼우는 구조입니다. |
 | build나 deploy가 실패함 | 실패 로그를 남기면 오늘 수업의 최소 성공 기준은 확보한 것입니다. |
 | 시간이 부족함 | 문장 완성도보다 구조, 검증, 기록을 우선합니다. |
 
@@ -192,21 +192,33 @@ Projects와 Posts는 오늘 다룹니다.
 발표자료는 슬라이드별 Markdown 파일로 나누었습니다.
 
 - [발표자료 인덱스](./presentation/README.md)
-- [Slide 01. 표지](./presentation/slides/01-title.md)
-- [Slide 02. 오늘의 성공 기준](./presentation/slides/02-success.md)
-- [Slide 03. 1회차 결과는 시작점](./presentation/slides/03-from-deploy-to-structure.md)
-- [Slide 04. 홈페이지는 탐색 공간](./presentation/slides/04-homepage-as-navigation-space.md)
-- [Slide 05. Home / About / Projects / Posts](./presentation/slides/05-four-page-roles.md)
-- [Slide 06. 페이지와 섹션](./presentation/slides/06-page-vs-section.md)
-- [Slide 06A. 페이지와 섹션 미니 연습](./presentation/slides/06a-page-section-exercise.md)
-- [Slide 07. Astro 파일 기반 라우팅](./presentation/slides/07-astro-routing.md)
-- [Slide 08. Layout과 Navigation](./presentation/slides/08-layout-navigation.md)
-- [Slide 09. Component와 데이터](./presentation/slides/09-component-data.md)
-- [Slide 09A. Component를 코드 없이 이해하기](./presentation/slides/09a-component-data-analogy.md)
-- [Slide 10. Posts를 미리 만드는 이유](./presentation/slides/10-posts-before-notion.md)
-- [Slide 11. Codex 데모 흐름](./presentation/slides/11-codex-demo.md)
-- [Slide 11A. 데모를 볼 때 확인할 것](./presentation/slides/11a-demo-watch-points.md)
-- [Slide 12. 워크북으로 이동](./presentation/slides/12-workbook.md)
+- [Slide 01. 표지](./presentation/slides/01.md)
+- [Slide 02. 2회차의 위치](./presentation/slides/02.md)
+- [Slide 03. 오늘 다루는 범위](./presentation/slides/03.md)
+- [Slide 04. 성공 기준은 세 단계입니다](./presentation/slides/04.md)
+- [Slide 05. 1회차 결과를 버리지 않습니다](./presentation/slides/05.md)
+- [Slide 06. 홈페이지는 입구입니다](./presentation/slides/06.md)
+- [Slide 07. 정보를 네 갈래로 나눕니다](./presentation/slides/07.md)
+- [Slide 08. Home은 첫인상과 안내입니다](./presentation/slides/08.md)
+- [Slide 09. About은 소개 흐름입니다](./presentation/slides/09.md)
+- [Slide 10. Projects는 사례 목록입니다](./presentation/slides/10.md)
+- [Slide 11. Posts는 글 중심 기록입니다](./presentation/slides/11.md)
+- [Slide 12. 오늘 만드는 기본 형태](./presentation/slides/12.md)
+- [Slide 13. 페이지와 섹션은 다릅니다](./presentation/slides/13.md)
+- [Slide 14. 페이지와 섹션을 구분해봅니다](./presentation/slides/14.md)
+- [Slide 15. Astro에서는 파일이 주소가 됩니다](./presentation/slides/15.md)
+- [Slide 16. SwiftUI와 비교하면 이동의 문제입니다](./presentation/slides/16.md)
+- [Slide 17. Layout은 공통 바깥 틀입니다](./presentation/slides/17.md)
+- [Slide 18. Navigation은 안내판입니다](./presentation/slides/18.md)
+- [Slide 19. Component는 반복되는 화면 틀입니다](./presentation/slides/19.md)
+- [Slide 20. JSON은 정보 파일입니다](./presentation/slides/20.md)
+- [Slide 21. slug는 주소에 쓰는 짧은 이름입니다](./presentation/slides/21.md)
+- [Slide 22. Posts를 미리 만드는 이유](./presentation/slides/22.md)
+- [Slide 23. 만든 뒤에는 검증합니다](./presentation/slides/23.md)
+- [Slide 24. 검증 후 GitHub에 올립니다](./presentation/slides/24.md)
+- [Slide 25. Codex와 작업할 때의 흐름](./presentation/slides/25.md)
+- [Slide 26. 마지막에는 기록합니다](./presentation/slides/26.md)
+- [Slide 27. 워크북으로 이동](./presentation/slides/27.md)
 
 ### 워크북
 
