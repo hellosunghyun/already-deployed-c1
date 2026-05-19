@@ -63,6 +63,9 @@ SwiftUI에도 [Layout 프로토콜](https://developer.apple.com/documentation/sw
 
 ## 공통 프롬프트
 
+이 프롬프트는 일부러 자세합니다.
+길다고 줄이기보다, 현재 상태와 확인 기준을 빠뜨리지 않기 위해 그대로 복사해서 사용하세요.
+
 ```text
 이제 모든 페이지에서 공통으로 사용할 Layout과 Navigation을 만들고 싶어.
 
