@@ -1,25 +1,13 @@
 ---
-import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<!doctype html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Astro로 만든 1회차 개인 홈페이지 예제입니다." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>나의 첫 개인 홈페이지</title>
-  </head>
-  <body>
-    <main class="page">
-      <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow">My First Homepage</p>
-        <h1 id="hero-title">안녕하세요, 저는 홍길동입니다.</h1>
-        <p class="intro">
-          AI와 함께 첫 개인 홈페이지를 만들고, GitHub Pages로 배포하는 과정을 배우고 있습니다.
-        </p>
-      </section>
-    </main>
-  </body>
-</html>
+<BaseLayout title="나의 첫 개인 홈페이지" description="Astro로 만든 1회차 개인 홈페이지 예제입니다.">
+  <section class="hero" aria-labelledby="hero-title">
+    <p class="eyebrow">My First Homepage</p>
+    <h1 id="hero-title">안녕하세요, 저는 홍길동입니다.</h1>
+    <p class="intro">
+      AI와 함께 첫 개인 홈페이지를 만들고, GitHub Pages로 배포하는 과정을 배우고 있습니다.
+    </p>
+  </section>
+</BaseLayout>
