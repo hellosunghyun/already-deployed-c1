@@ -97,10 +97,10 @@ https://hello123.github.io
 
 GitHub Pages 사용자 사이트를 만들 때 기본 저장소 이름은?
 
-A. `my-homepage`  
-B. `portfolio`  
-C. `<github-username>.github.io`  
-D. `astro-project`
+- A. `my-homepage`
+- B. `portfolio`
+- C. `<github-username>.github.io`
+- D. `astro-project`
 
 <details>
 <summary>정답 보기</summary>

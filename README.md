@@ -95,7 +95,7 @@ sessions/XX/
 - Ready Gate
 - 힌트
 - 퀴즈
-- 커밋 가이드
+- 저장 체크포인트
 
 ### `templates/`
 

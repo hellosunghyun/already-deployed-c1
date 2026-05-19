@@ -9,7 +9,7 @@
 3. Layout과 Navigation 계획 받기
 4. 파일 수정 승인하기
 5. `npm run dev`로 확인하기
-6. Browser 또는 일반 브라우저로 페이지 이동 확인하기
+6. Browser로 페이지 이동 확인하기
 7. `npm run build`로 검증하기
 8. commit 메시지 추천 받기
 
@@ -24,11 +24,13 @@
 
 ---
 
-[← 이전](./10-posts-before-notion.md) · [다음 →](./12-workbook.md)
+[← 이전](./10-posts-before-notion.md) · [다음 →](./11a-demo-watch-points.md)
 
 <details><summary>말할 포인트</summary>
 
-참가자가 1회차에서 배운 "계획 먼저" 습관을 계속 가져가게 합니다.
-2회차는 수정 파일이 많아지므로 계획 확인이 더 중요합니다.
+데모에서 가장 강조할 것은 코드를 빠르게 쓰는 장면이 아닙니다.
+AI가 바로 파일을 고치기 전에 계획을 말하게 하는 습관입니다.
+
+2회차는 수정 파일이 많아지기 때문에, 계획을 확인하지 않으면 어느 파일이 바뀌는지 놓치기 쉽습니다.
 
 </details>

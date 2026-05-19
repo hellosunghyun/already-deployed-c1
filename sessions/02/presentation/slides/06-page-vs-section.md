@@ -30,12 +30,18 @@ Home 페이지 안에 About 섹션을 만들어줘.
 
 ---
 
-[← 이전](./05-four-page-roles.md) · [다음 →](./07-astro-routing.md)
+[← 이전](./05-four-page-roles.md) · [다음 →](./06a-page-section-exercise.md)
 
 <details><summary>말할 포인트</summary>
 
-초보자는 페이지와 섹션을 자주 섞어 씁니다.
-AI에게 정확히 말하려면 이 구분이 중요합니다.
-오늘은 `/about`, `/projects`, `/posts`처럼 주소가 따로 있는 페이지를 만듭니다.
+처음에는 페이지와 섹션을 섞어 말하기 쉽습니다.
+여기서 너무 이론적으로 설명하지 말고, 주소가 따로 있느냐로 구분합니다.
+
+```text
+/about처럼 주소가 따로 있으면 페이지.
+Home 안에 들어가는 한 덩어리면 섹션.
+```
+
+오늘은 주로 주소가 따로 있는 페이지를 만듭니다.
 
 </details>

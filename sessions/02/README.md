@@ -14,11 +14,80 @@
 - Astro의 파일 기반 라우팅을 이해하는 법
 - 웹의 라우팅을 SwiftUI의 화면 이동과 비교해서 이해하는 법
 - 공통 Layout과 Navigation을 만드는 이유
-- 반복되는 정보를 Component와 데이터로 다루는 법
-- Notion을 붙이기 전 Posts 구조를 미리 준비하는 법
+- 반복되는 프로젝트 정보를 Component, 데이터, 상세 페이지로 다루는 법
+- 글 중심 콘텐츠를 Posts로 분리하고, 외부 콘텐츠 소스나 MDX 같은 구조로 확장할 준비를 하는 법
 - 수정 후 build / commit / push / deploy까지 다시 확인하는 법
 
 을 함께 익히는 것입니다.
+
+## 페이지 구성에 대한 전제
+
+Home / About / Projects / Posts에 어떤 내용을 넣을지는 정답이 정해진 문제가 아닙니다.
+이 자료의 구분은 **이번 수업을 진행하기 위한 현재 기준**입니다.
+
+개인 홈페이지의 성격에 따라 About을 짧게 둘 수도 있고, Projects보다 Posts를 더 중요하게 둘 수도 있습니다.
+2회차에서는 일단 방문자가 길을 잃지 않도록 기본 구조를 잡고, 이후 회차에서 각자의 기준에 맞게 바꿉니다.
+
+## 2시간 운영안
+
+2회차는 **발표 30분 + 실습 90분**을 기준으로 운영합니다.
+처음부터 모든 개념을 완벽히 설명하려고 하기보다, 참가자가 실습 중에 다시 읽을 수 있는 기준 문장을 먼저 심어두는 방식이 좋습니다.
+
+| 시간 | 구간 | 목표 |
+|---|---|---|
+| 0:00-0:05 | 시작과 출발 상태 확인 | 1회차 완료 여부가 달라도 참여 가능하다는 기준 맞추기 |
+| 0:05-0:15 | 정보 구조 설명 | Home / About / Projects / Posts가 왜 나뉘는지 이해 |
+| 0:15-0:23 | Astro 구조 설명 | `src/pages`, URL, Layout, Component를 쉬운 말로 연결 |
+| 0:23-0:30 | 데모와 실습 전환 | AI에게 계획을 먼저 받는 흐름 확인 |
+| 0:30-0:45 | 실습 01-02 | 프로젝트 상태 점검, 출발 경로 정리 |
+| 0:45-1:10 | 실습 03-04 | 페이지 생성, Layout, Navigation 만들기 |
+| 1:10-1:35 | 실습 05-08 | Home / About / Projects / Posts 내용 채우기, Projects 상세 연결 |
+| 1:35-1:50 | 실습 09-10 | 브라우저 확인, build, commit / push |
+| 1:50-2:00 | 실습 11 | 결과 기록, 3회차 디자인 수정 재료 정리 |
+
+### 시간이 부족할 때
+
+- 반드시 끝내야 하는 것: `/about`, `/projects`, `/posts`, Navigation, build 결과 기록
+- 가능하면 끝낼 것: Projects 카드에서 상세정보로 이동하는 링크
+- 다음으로 미뤄도 되는 것: 카드 디자인 세부 조정, Posts 글 문장 다듬기, 프로젝트 문구 완성도
+- 끝까지 못 가도 남겨야 하는 것: 현재 상태, 실패 로그, 다음 질문 프롬프트
+
+### 시간이 남을 때
+
+- Navigation 링크 문구를 더 자연스럽게 바꾸기
+- Projects 카드 1개를 추가해보기
+- 모바일 폭에서 텍스트가 깨지는지 확인하기
+- 3회차에서 고치고 싶은 디자인 문제를 3개 적기
+- 내 홈페이지에 참고하고 싶은 개인 홈페이지 주소 또는 레퍼런스 링크 1~2개 찾아오기
+- 레퍼런스에서 가져오고 싶은 점과 따라하지 않을 점을 각각 적기
+
+## 친절함 점검 기준
+
+2회차는 참가자가 "개발 개념이 갑자기 어려워졌다"고 느끼기 쉬운 회차입니다.
+진행자는 아래 기준을 계속 확인합니다.
+
+| 상황 | 진행자가 먼저 해줄 말 |
+|---|---|
+| 1회차를 끝내지 못함 | 예제 폴더에서 시작해도 됩니다. 오늘 배울 구조는 똑같습니다. |
+| 페이지와 섹션을 헷갈림 | 주소가 따로 있으면 페이지, 한 화면 안의 구역이면 섹션입니다. |
+| `Layout`이 어려움 | 모든 페이지가 같이 입는 공통 옷이라고 생각하면 됩니다. |
+| `Component`와 `array`가 어려움 | 카드 양식 하나에 여러 내용을 바꿔 끼우는 구조입니다. |
+| build나 deploy가 실패함 | 실패 로그를 남기면 오늘 수업의 최소 성공 기준은 확보한 것입니다. |
+| 시간이 부족함 | 문장 완성도보다 구조, 검증, 기록을 우선합니다. |
+
+### 진행자가 피할 말
+
+- "이건 쉬운데요?"
+- "아까 했잖아요."
+- "일단 다 지우고 새로 만들죠."
+- "시간 없으니까 그냥 넘어가요."
+
+대신 이렇게 말합니다.
+
+```text
+지금은 어디까지 되었는지 확인하는 게 먼저입니다.
+완성보다 현재 상태와 다음 질문을 남기는 것이 중요합니다.
+```
 
 ## 1회차 완료 상태별 진행 경로
 
@@ -51,16 +120,19 @@
 - [Slide 04. 홈페이지는 탐색 공간](./presentation/slides/04-homepage-as-navigation-space.md)
 - [Slide 05. Home / About / Projects / Posts](./presentation/slides/05-four-page-roles.md)
 - [Slide 06. 페이지와 섹션](./presentation/slides/06-page-vs-section.md)
+- [Slide 06A. 페이지와 섹션 미니 연습](./presentation/slides/06a-page-section-exercise.md)
 - [Slide 07. Astro 파일 기반 라우팅](./presentation/slides/07-astro-routing.md)
 - [Slide 08. Layout과 Navigation](./presentation/slides/08-layout-navigation.md)
 - [Slide 09. Component와 데이터](./presentation/slides/09-component-data.md)
+- [Slide 09A. Component를 코드 없이 이해하기](./presentation/slides/09a-component-data-analogy.md)
 - [Slide 10. Posts를 미리 만드는 이유](./presentation/slides/10-posts-before-notion.md)
 - [Slide 11. Codex 데모 흐름](./presentation/slides/11-codex-demo.md)
+- [Slide 11A. 데모를 볼 때 확인할 것](./presentation/slides/11a-demo-watch-points.md)
 - [Slide 12. 워크북으로 이동](./presentation/slides/12-workbook.md)
 
 ### 워크북
 
-워크북은 단계별로 작게 나누었습니다. 각 파일은 **목표**, **왜 하는가**, **프롬프트**, **Ready Gate**, **힌트**, **퀴즈**, **커밋 가이드**를 포함합니다.
+워크북은 단계별로 작게 나누었습니다. 각 파일은 **목표**, **왜 하는가**, **프롬프트**, **Ready Gate**, **힌트**, **퀴즈**, **저장 체크포인트**를 포함합니다.
 
 - [워크북 인덱스](./workbook/README.md)
 - [00. 워크북 사용법](./workbook/00-how-to-use.md)

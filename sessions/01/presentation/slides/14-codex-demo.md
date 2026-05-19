@@ -11,7 +11,7 @@
 5. `AGENTS.md` 만들기
 6. Astro 프로젝트 만들기
 7. `localhost`에서 확인하기
-8. `@browser` 또는 Browser 도구로 화면 확인하기
+8. Browser로 화면 확인하기
 
 ---
 
@@ -19,6 +19,6 @@
 
 <details><summary>말할 포인트</summary>
 
-Codex에서 브라우저 도구가 보이면 적극 활용합니다. 입력창에서 `@browser` 또는 Browser 관련 옵션을 선택할 수 있으면 로컬 주소를 열어 직접 화면 확인을 요청합니다. 보이지 않는 경우에는 Safari 또는 Chrome으로 `http://localhost:4321`을 직접 열면 됩니다.
+Codex에서는 Browser를 기본 확인 도구로 사용합니다. `@browser http://localhost:4321`처럼 로컬 주소를 열어 실제 화면을 확인하게 요청합니다.
 
 </details>

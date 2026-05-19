@@ -9,7 +9,7 @@
 ```text
 샘플 글 데이터
 → Posts 페이지
-→ 나중에 Notion 데이터로 교체
+→ 나중에 외부 데이터 응답을 같은 모양으로 변환
 ```
 
 ---
@@ -23,12 +23,16 @@
 
 ---
 
-[← 이전](./09-component-data.md) · [다음 →](./11-codex-demo.md)
+[← 이전](./09a-component-data-analogy.md) · [다음 →](./11-codex-demo.md)
 
 <details><summary>말할 포인트</summary>
 
 1회차에서 Notion을 나중으로 미룬 이유와 이어집니다.
-오늘 Posts를 만드는 이유는 글 목록의 "자리"와 "구조"를 먼저 잡기 위해서입니다.
-API와 secret은 4회차까지 기다립니다.
+오늘은 Notion을 붙이는 날이 아닙니다.
+
+먼저 글 목록이 들어갈 자리와 모양을 만들어둡니다.
+나중에 4회차에서 API 응답을 `title`, `slug`, `date`, `summary`, `tags` 같은 화면용 데이터로 바꿔 끼우면 된다고 설명합니다.
+
+API, secret, token 이야기는 오늘 하지 않습니다.
 
 </details>

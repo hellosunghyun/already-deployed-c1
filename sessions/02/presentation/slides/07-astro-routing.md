@@ -41,13 +41,20 @@ NavigationLink를 누르면 AboutView가 보임
 
 ---
 
-[← 이전](./06-page-vs-section.md) · [다음 →](./08-layout-navigation.md)
+[← 이전](./06a-page-section-exercise.md) · [다음 →](./08-layout-navigation.md)
 
 <details><summary>말할 포인트</summary>
 
-Astro 전체 라우팅 문법을 깊게 설명하지 않습니다.
+Astro 전체 라우팅 문법으로 깊게 들어가지 않습니다.
 오늘은 `src/pages`와 URL의 연결만 이해하면 충분합니다.
-참가자가 "파일을 만들었는데 주소가 생긴다"는 감각을 갖게 하는 것이 목표입니다.
-SwiftUI를 아는 참가자가 있다면 `NavigationLink`와 비교합니다. 다만 iOS 앱에는 웹 URL처럼 `/about` 주소가 항상 있는 것은 아니므로, "주소 기반 이동"과 "앱 안 화면 이동"의 차이만 짚습니다.
+
+핵심은 이것입니다.
+
+```text
+파일을 만들었더니, 브라우저에서 열 수 있는 주소가 생긴다.
+```
+
+SwiftUI를 아는 참가자가 있으면 `NavigationLink`와 가볍게 비교합니다.
+다만 iOS 앱에는 웹처럼 `/about` 주소가 항상 있는 것은 아니니, "웹은 주소로 이동하고 앱은 화면 흐름으로 이동한다" 정도만 짚습니다.
 
 </details>
