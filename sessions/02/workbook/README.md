@@ -52,12 +52,14 @@
 
 ## 다음 세션 전 레퍼런스 준비
 
-3회차 전에는 내 홈페이지에 참고하고 싶은 개인 홈페이지 주소나 레퍼런스 링크를 1~2개 찾아옵니다.
+3회차 전에는 내 홈페이지에 참고하고 싶은 개인 홈페이지 주소나 레퍼런스 링크를 2~5개 찾아옵니다.
 직접 찾기 어렵다면 [Siteinspire](https://www.siteinspire.com/websites/category/personal), [Land-book](https://land-book.com/), [One Page Love](https://onepagelove.com/inspiration/), [Lapa Ninja](https://www.lapa.ninja/) 같은 레퍼런스 사이트에서 골라도 됩니다.
+레퍼런스는 다양할수록 좋지만, 3회차에서는 그중 지금 내 홈페이지에 바로 적용하기 쉬운 요소부터 고릅니다.
 
 링크만 가져오는 것보다 아래를 같이 적어오면 좋습니다.
 
 - 가져오고 싶은 점
+- 바로 적용하기 쉬운 점
 - 따라하지 않을 점
 - 내 홈페이지에서 바꾸고 싶은 위치
 
