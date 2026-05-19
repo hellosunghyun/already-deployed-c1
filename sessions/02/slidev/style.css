@@ -317,17 +317,38 @@ body,
   margin-top: 28px !important;
   display: grid;
   gap: 12px;
-  list-style: none;
-  padding: 0;
+  list-style: none !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
 }
 
 .big-list li {
-  padding-left: 22px;
-  border-left: 4px solid var(--brand-red);
+  position: relative;
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding-left: 0 !important;
+  border-left: 0;
+  list-style: none !important;
   color: var(--zinc-800);
   font-size: 21px;
   line-height: 1.38;
   font-weight: 650;
+}
+
+.big-list li::marker {
+  content: "" !important;
+  font-size: 0 !important;
+}
+
+.big-list li::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  margin-top: 0.48em;
+  background: var(--brand-red);
+  display: block;
 }
 
 .deck-slide.dark .big-list li {
