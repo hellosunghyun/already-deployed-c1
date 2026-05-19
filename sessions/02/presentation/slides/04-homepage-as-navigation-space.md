@@ -22,7 +22,15 @@ Posts
 
 [← 이전](./03-from-deploy-to-structure.md) · [다음 →](./05-four-page-roles.md)
 
-<details><summary>말할 포인트</summary>
+<details><summary>발표자 노트</summary>
+
+**슬라이드 화면 구성**
+
+- 질문 목록: `누구인가 / 무엇을 해봤는가 / 어떤 생각을 하는가 / 더 볼 자료가 있는가`
+- 정보 구조: `Home / About / Projects / Posts`
+- 핵심 문장: 홈페이지는 긴 자기소개서가 아니라 탐색 공간입니다.
+
+**말할 내용**
 
 Home을 "내가 하고 싶은 말을 전부 넣는 곳"으로 생각하면 금방 길어집니다.
 오늘은 Home을 입구처럼 봅니다.

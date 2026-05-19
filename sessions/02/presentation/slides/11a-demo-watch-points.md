@@ -24,7 +24,15 @@
 
 [← 이전](./11-codex-demo.md) · [다음 →](./12-workbook.md)
 
-<details><summary>말할 포인트</summary>
+<details><summary>발표자 노트</summary>
+
+**슬라이드 화면 구성**
+
+- 확인할 것 4개: 계획, 수정 파일, Browser 확인, build 후 commit/push 판단
+- 멈춰야 하는 신호 4개: 새 라이브러리, Pages 설정, Home 삭제, 외부 API/token
+- 화면은 체크리스트처럼 보이게 두면 됩니다.
+
+**말할 내용**
 
 데모를 볼 때 코드를 전부 읽으려고 하면 금방 지칩니다.
 여기서는 코드를 이해하는 것보다, AI와 일할 때 무엇을 확인해야 하는지 보는 시간이라고 안내합니다.

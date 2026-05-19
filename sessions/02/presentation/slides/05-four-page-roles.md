@@ -33,7 +33,15 @@ Posts = 글 중심 기록
 
 [← 이전](./04-homepage-as-navigation-space.md) · [다음 →](./06-page-vs-section.md)
 
-<details><summary>말할 포인트</summary>
+<details><summary>발표자 노트</summary>
+
+**슬라이드 화면 구성**
+
+- 표: Home / About / Projects / Posts의 역할
+- 짧은 비유: `About = 소개 흐름`, `Projects = 같은 형식의 사례 목록`, `Posts = 글 중심 기록`
+- 기본 형태: Home, About, Projects, Posts에 오늘 다룰 최소한의 예시
+
+**말할 내용**
 
 오늘은 완성된 포트폴리오 문장을 쓰는 날이 아닙니다.
 임시 문장으로 시작해도 됩니다.

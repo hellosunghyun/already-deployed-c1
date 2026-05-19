@@ -25,7 +25,15 @@
 
 [← 이전](./09a-component-data-analogy.md) · [다음 →](./11-codex-demo.md)
 
-<details><summary>말할 포인트</summary>
+<details><summary>발표자 노트</summary>
+
+**슬라이드 화면 구성**
+
+- 흐름: `샘플 글 데이터 → Posts 페이지 → 나중에 외부 데이터 응답을 같은 모양으로 변환`
+- 오늘 하지 않는 것 목록: database, token, secret, API 호출
+- 화면에는 “오늘은 API를 붙이지 않는다”는 메시지가 분명히 보여야 합니다.
+
+**말할 내용**
 
 1회차에서 Notion을 나중으로 미룬 이유와 이어집니다.
 오늘은 Notion을 붙이는 날이 아닙니다.

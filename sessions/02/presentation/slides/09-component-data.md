@@ -45,7 +45,15 @@ projects.json ≈ 프로젝트 목록 데이터
 
 [← 이전](./08-layout-navigation.md) · [다음 →](./09a-component-data-analogy.md)
 
-<details><summary>말할 포인트</summary>
+<details><summary>발표자 노트</summary>
+
+**슬라이드 화면 구성**
+
+- 카드에 들어갈 정보 목록
+- `src/data/projects.json / ProjectCard Component / slug` 역할 분리
+- SwiftUI 비교: `ProjectCardView`, 목록 데이터, `ForEach`
+
+**말할 내용**
 
 JSON, 객체, 컴포넌트라는 단어가 나올 수 있습니다.
 여기서 문법을 전부 설명하려고 하면 수업이 무거워집니다.

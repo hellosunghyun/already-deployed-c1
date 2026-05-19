@@ -43,7 +43,15 @@ NavigationLink를 누르면 AboutView가 보임
 
 [← 이전](./06a-page-section-exercise.md) · [다음 →](./08-layout-navigation.md)
 
-<details><summary>말할 포인트</summary>
+<details><summary>발표자 노트</summary>
+
+**슬라이드 화면 구성**
+
+- `src/pages/*.astro → URL` 매핑 코드블록
+- 오늘 필요한 감각: `파일 이름을 잘 정하면 주소가 생깁니다.`
+- SwiftUI 비교는 `NavigationLink → AboutView` 정도만 보입니다.
+
+**말할 내용**
 
 Astro 전체 라우팅 문법으로 깊게 들어가지 않습니다.
 오늘은 `src/pages`와 URL의 연결만 이해하면 충분합니다.
