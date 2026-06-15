@@ -56,7 +56,7 @@ Depth 3. 실제 진행 파일
 |---|---|---|---|---|
 | 1회차 | 작성됨 | AI 에이전트와 함께 첫 배포 루프 만들기 | Astro 첫 버전, GitHub 저장소, GitHub Pages URL | [sessions/01](./sessions/01/) |
 | 2회차 | 작성됨 | 홈페이지를 읽히는 구조로 나누기 | Home / About / Projects / Posts, Layout, Navigation | [sessions/02](./sessions/02/) |
-| 3회차 | 예정 | AI에게 디자인 수정과 요구사항을 정확히 전달하기 | 스크린샷 기반 수정, 브라우저 요소/영역 선택 요청, 모바일 확인, 디자인 개선 | 준비 예정 |
+| 3회차 | 작성됨 | AI에게 디자인 수정과 요구사항을 정확히 전달하기 | 스크린샷 기반 수정, Codex Browser 주석, DESIGN.md 레퍼런스 토큰, 원하는 요소만 적용, 모바일 확인 | [sessions/03](./sessions/03/) |
 | 4회차 | 예정 | Notion을 콘텐츠 관리 도구처럼 연결하기 | Notion DB, Integration, Notion 기반 Posts | 준비 예정 |
 | 5회차 | 예정 | 운영 가능한 개인 홈페이지로 마무리하기 | README, 배포 체크리스트, 선택 도메인, 최종 제출 | 준비 예정 |
 
@@ -124,6 +124,14 @@ sessions/XX/
 - [2회차 워크북](./sessions/02/workbook/README.md)
 - [2회차 템플릿](./sessions/02/templates/)
 - 목표: Home / About / Projects / Posts 구조와 공통 Layout 만들기
+
+### 3회차
+
+- [3회차 자료](./sessions/03/)
+- [3회차 발표자료](./sessions/03/presentation/README.md)
+- [3회차 워크북](./sessions/03/workbook/README.md)
+- [3회차 템플릿](./sessions/03/templates/)
+- 목표: 스크린샷, Codex Browser 주석, DESIGN.md 레퍼런스 토큰을 기준으로 원하는 요소만 골라 디자인 수정 요청하기
 
 ## 진행 방식
 
