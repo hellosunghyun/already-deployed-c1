@@ -1,6 +1,7 @@
 # AGENTS.md 3회차 업데이트 템플릿
 
-기존 `AGENTS.md`에 필요한 만큼만 추가합니다.
+기존 `AGENTS.md`에는 **규칙과 참조 경로만** 추가합니다.
+실제 디자인 백로그 항목은 `docs/design-backlog/` 폴더에 둡니다.
 
 ```markdown
 ## 3회차 디자인 작업 규칙
@@ -12,27 +13,21 @@
 - 레퍼런스는 전체 복제하지 않고 선택한 요소 하나만 토큰으로 적용한다.
 - 새 라이브러리, 외부 font, 무거운 animation은 사용자 승인 없이 추가하지 않는다.
 - 수정 후 desktop, 390px 모바일, `npm run build`로 확인한다.
-
-## 3회차 디자인 백로그
-
-- [ ] D-001
-  - URL:
-  - Viewport:
-  - Target:
-  - Problem:
-  - Direction:
-  - Reference:
-  - Selected element:
-  - Bring:
-  - Avoid:
-  - Verification:
-  - Status: planned
+- 디자인 백로그 본문은 `AGENTS.md`에 적지 않는다.
+- 디자인 백로그는 `docs/design-backlog/` 폴더의 Markdown 파일로 관리한다.
+- 작업 전 선택한 백로그 파일을 읽고, 그 항목 하나만 실행한다.
+- 작업 후 상태와 검증 결과는 해당 백로그 파일에 갱신한다.
 ```
 
 ## Codex 요청문
 
 ```text
-현재 AGENTS.md에 위 3회차 디자인 작업 규칙과 백로그 섹션을 추가해줘.
-기존 규칙은 지우지 말고, 중복되는 문장은 합쳐줘.
-먼저 변경 문안만 보여주고 내가 승인하면 수정해줘.
+현재 AGENTS.md에 위 3회차 디자인 작업 규칙만 추가해줘.
+
+조건:
+- 기존 규칙은 지우지 마.
+- AGENTS.md에 실제 D-001 백로그 본문은 적지 마.
+- 백로그 본문은 `docs/design-backlog/` 폴더에 둘 예정이라고만 참조해.
+- 중복되는 문장은 합쳐줘.
+- 먼저 변경 문안만 보여주고 내가 승인하면 수정해줘.
 ```

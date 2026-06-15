@@ -32,7 +32,7 @@ OpenAI Codex Best Practices는 반복되는 작업 규칙을 `AGENTS.md`에 넣�
 
 - 참고: [OpenAI Developers — Codex Best practices / AGENTS.md](https://developers.openai.com/codex/learn/best-practices)
 
-3회차에서는 디자인 백로그도 `AGENTS.md`의 작은 섹션으로 관리합니다. 이유는 Codex가 다음 턴에서 레포 규칙과 현재 디자인 목표를 함께 읽게 하기 위해서입니다.
+3회차에서는 `AGENTS.md`에 디자인 작업 규칙과 백로그 위치만 둡니다. 실제 백로그 항목은 `docs/design-backlog/`의 별도 Markdown 파일로 관리합니다. 이렇게 하면 Codex가 반복 규칙은 항상 읽고, 수정 항목은 필요한 파일만 참조하게 할 수 있습니다.
 
 ## DESIGN.md 레퍼런스
 
@@ -50,6 +50,6 @@ Plan mode로 먼저 계획을 받는다.
 브라우저 태그는 @브라우저 / @Browser를 모두 안내한다.
 태그가 안 되면 설정에서 브라우저 플러그인을 켠다.
 레퍼런스는 원하는 요소 하나만 가져온다.
-디자인 백로그는 AGENTS.md에 남긴다.
+디자인 백로그는 `docs/design-backlog/`에 남긴다. AGENTS.md에는 해당 위치와 운영 규칙만 남긴다.
 일반 디자인 수정에서는 고급 브라우저 디버깅 주제를 다루지 않는다.
 ```

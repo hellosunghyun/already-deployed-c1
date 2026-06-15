@@ -2,21 +2,23 @@
 
 ## 목표
 
-Plan mode에서 만든 계획 중 **D-001 하나만** 실행합니다.
+`docs/design-backlog/D-001.md`에 적은 항목 하나만 실행합니다.
 
 ## 실행 프롬프트
 
 ```text
-좋아. AGENTS.md의 D-001 백로그만 실행해줘.
+좋아. `docs/design-backlog/D-001.md`를 읽고 그 항목만 실행해줘.
 
 실행 조건:
 - 새 프로젝트를 만들지 마.
 - D-001 Target과 관련된 파일만 수정해.
 - 새 라이브러리, 외부 font, 무거운 animation은 추가하지 마.
+- AGENTS.md에는 백로그 본문을 추가하지 마.
 - 수정 전 예상 변경 파일을 말해줘.
 - 수정 후 변경 파일과 이유를 요약해줘.
 - @브라우저 또는 @Browser로 desktop과 390px 모바일을 확인해줘.
 - 마지막에 npm run build를 실행하거나, 실행이 어려우면 이유와 다음 명령을 알려줘.
+- 완료 후 `docs/design-backlog/D-001.md`의 Status, Result, Verification을 어떻게 갱신할지도 제안해줘.
 ```
 
 ## Plan 실행 버튼이 없을 때
@@ -49,6 +51,7 @@ D-001만 구현하고, D-002 이후는 진행하지 마.
 - [ ] 변경 파일 목록을 받았다.
 - [ ] 브라우저 또는 모바일 확인 결과가 있다.
 - [ ] build 결과 또는 실패 로그가 있다.
+- [ ] `docs/design-backlog/D-001.md`에 남길 결과 문안이 있다.
 
 ## 다음 단계
 

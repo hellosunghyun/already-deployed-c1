@@ -52,4 +52,4 @@ Verification: @브라우저 또는 @Browser로 desktop과 390px 확인, npm run 
 
 ## 다음 단계
 
-[09. AGENTS.md에 디자인 백로그 남기기 →](./09-agents-design-backlog.md)
+[09. AGENTS.md 규칙과 백로그 폴더 만들기 →](./09-design-backlog-folder.md)
