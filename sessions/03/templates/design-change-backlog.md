@@ -75,7 +75,6 @@ Status: planned
 
 ## Approved plan
 
-- 승인 시각: [입력]
 - 승인 문장: [입력]
 - 02단계 최종 Plan 위치: [현재 채팅 또는 기록 위치]
 
@@ -145,7 +144,7 @@ D-001 입력값:
 - Component: [입력]
 - Allowed files: [파일 경로 목록]
 - Do not change: [유지할 파일·데이터·배포 설정]
-- 승인 시각과 승인 문장: [입력]
+- 승인 문장: [입력]
 - 02단계 최종 Plan 위치: [입력]
 - Steps: [최종 Plan의 구현 단계]
 - Before screenshot: [파일 경로 또는 첨부명]
@@ -188,7 +187,7 @@ D-001 입력값:
 - Component: [입력]
 - Allowed files: [파일 경로 목록]
 - Do not change: [유지할 파일·데이터·배포 설정]
-- 승인 시각과 승인 문장: [입력]
+- 승인 문장: [입력]
 - 02단계 최종 Plan 위치: [입력]
 - Steps: [최종 Plan의 구현 단계]
 - Before screenshot: [파일 경로 또는 첨부명]

@@ -72,7 +72,6 @@ Design source: ../../DESIGN.md
 ## Evidence
 
 - Before screenshot, Browser 주석 또는 관찰 기록:
-- 확인한 날짜:
 
 ## Problem
 
@@ -110,7 +109,6 @@ Design source: ../../DESIGN.md
 
 ## Approved plan
 
-- 승인 시각:
 - 승인 문장:
 - 02단계 최종 Plan 위치:
 
@@ -189,7 +187,7 @@ Design source: ../../DESIGN.md
    - 실제 백로그 본문은 docs/design-backlog에 둔다.
 4. docs/design-backlog/README.md에는 D-001 인덱스와 Status 설명만 넣어줘.
 5. docs/design-backlog/D-001.md에는 Where (URL + Viewport), Target, Evidence, Problem, Direction, Constraint와 선택 브리프의 token brief, Allowed files, Do not change를 빠짐없이 전달해줘.
-6. D-001의 Approved plan에는 승인 시각·승인 문장·02단계 Plan 위치를 적고, Steps는 최종 Plan과 같은 범위와 순서로 적어줘.
+6. D-001의 Approved plan에는 승인 문장·02단계 Plan 위치를 적고, Steps는 최종 Plan과 같은 범위와 순서로 적어줘.
 7. 만들거나 갱신할 네 파일의 완성 문안과 예상 diff를 먼저 보여줘.
 
 중요:
@@ -287,7 +285,7 @@ Design source: ../../DESIGN.md
 
 </details>
 
-## 저장 체크포인트
+## 다음 단계에서 참고할 내용
 
 ```text
 DESIGN.md: selected / 확인함

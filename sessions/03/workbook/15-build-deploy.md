@@ -232,7 +232,7 @@ push가 성공했지만 GitHub Actions가 실패했습니다. 올바른 기록�
 
 </details>
 
-## 저장 체크포인트
+## 다음 단계에서 참고할 내용
 
 PASS면 commit hash, remote/branch, Actions 상태, 실제 Pages URL을 [Before / After 기록지](../templates/before-after-report.md)에 추가합니다.
 BLOCKED면 새 commit을 억지로 만들지 않고 현재 상태와 실패 증거를 저장합니다.

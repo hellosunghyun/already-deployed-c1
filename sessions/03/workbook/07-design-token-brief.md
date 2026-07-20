@@ -199,7 +199,7 @@ Element candidates:
 
 </details>
 
-## 저장 체크포인트
+## 다음 단계에서 참고할 내용
 
 ```text
 저장 파일: DESIGN.md

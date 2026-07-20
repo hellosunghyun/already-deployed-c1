@@ -96,7 +96,7 @@ sessions/XX/
 - Ready Gate
 - 힌트
 - 퀴즈
-- 저장 체크포인트
+- 다음 단계에서 참고할 내용
 
 ### `templates/`
 

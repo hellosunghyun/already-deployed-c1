@@ -1,7 +1,6 @@
 # Before / After 기록지
 
 ```text
-기록 날짜: [YYYY-MM-DD]
 D-001 제목: [입력]
 Status: [done / blocked]
 

@@ -275,7 +275,7 @@ Actions가 성공했지만 실제 Pages URL의 CSS asset이 404입니다. D-001 
 
 </details>
 
-## 저장 체크포인트
+## 다음 단계에서 참고할 내용
 
 2단계 승인 후 두 백로그 파일이 실제로 수정됐는지 diff로 확인합니다.
 기록 변경도 GitHub에 남기려면 15단계의 preflight를 다시 사용해 **이 두 문서만** 별도의 docs commit 후보로 확인하고, 사용자 승인 후 commit/push합니다.

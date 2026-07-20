@@ -96,22 +96,6 @@ Codex CLI·IDE, Claude Code, Antigravity에서도 이 스크린샷 경로를 공
 | [Refero Styles](https://styles.refero.design/) | colors, typography, spacing, components 예시 고르기 |
 | [designmd.app](https://designmd.app/) | DESIGN.md 형식과 ready-to-use style 참고 |
 
-## 전체 120분 운영안
-
-앞의 30분은 발표와 데모, 뒤의 90분은 워크북 실습입니다. 워크북의 `W0:00`은 전체 수업 기준 `0:30`에 해당합니다.
-
-| 시간 | 구간 | 목표 |
-|---|---|---|
-| 0:00-0:30 | 발표·데모 | 결과물, Browser·스크린샷 경로, 6좌표와 D-001 흐름 이해 |
-| 0:30-0:38 | 출발·Browser | A/B/C 결정, 실제 Local URL, Browser 또는 스크린샷 경로 |
-| 0:38-0:48 | 화면 증거 | baseline, 6좌표, Annotation 또는 스크린샷 |
-| 0:48-1:00 | 레퍼런스·선택 | 레퍼런스 하나, 7개 토큰, 챌린지 하나 |
-| 1:00-1:10 | 최종 Plan·백로그 | 증거 기반 Plan, AGENTS.md 규칙, D-001 생성 |
-| 1:10-1:30 | 실행 | 선택한 D-001 한 건의 실제 수정 |
-| 1:30-1:42 | 모바일 | 현재 desktop과 390x844 수정·재검증 |
-| 1:42-1:54 | build·배포 | build, 승인 후 commit·push, Actions / Pages 확인 |
-| 1:54-2:00 | 기록 | before/after, D-001 상태, 4회차 준비 |
-
 ## 성공 기준
 
 상위 단계는 이전 단계의 조건을 모두 포함합니다.

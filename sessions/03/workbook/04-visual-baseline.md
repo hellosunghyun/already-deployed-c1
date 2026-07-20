@@ -98,7 +98,6 @@ Posts: [01단계 기록 또는 없음]
 
 ```text
 Baseline ID:
-촬영 시각:
 Where: [정확한 전체 URL] @ [viewport]
 Target:
 Evidence: [Browser 화면 또는 스크린샷 이름과 직접 확인되는 내용]
@@ -171,7 +170,7 @@ viewport 숫자를 알 수 없다면 Browser에게 현재 viewport를 물어보�
 
 </details>
 
-## 저장 체크포인트
+## 다음 단계에서 참고할 내용
 
 B-001의 Where (URL + Viewport), Target, Evidence, 관찰한 문제를 현재 채팅이나 개인 노트에 저장합니다. 이 단계에서는 프로젝트 파일을 commit하지 않습니다.
 

@@ -115,7 +115,7 @@ contrast:
 
 ## 4. 해결하지 못했을 때
 
-필수 항목의 FAIL이나 확인 불가가 남았는데 수업 시간 안에 안전하게 해결할 수 없다면 배포하지 않습니다.
+필수 항목의 FAIL이나 확인 불가가 남아 안전하게 해결할 수 없다면 배포하지 않습니다.
 
 ```text
 D-001 Status: blocked
@@ -176,7 +176,7 @@ D-001 Status: blocked
 </details>
 
 <details>
-<summary>Hint 3. 권장 viewport까지 시간이 없다면?</summary>
+<summary>Hint 3. 권장 viewport까지 확인할 수 없다면?</summary>
 
 현재 desktop과 390x844는 생략하지 않습니다.
 768x1024와 1440x900은 `확인하지 않음`으로 정확히 남깁니다.
@@ -201,7 +201,7 @@ D-001 Status: blocked
 
 </details>
 
-## 저장 체크포인트
+## 다음 단계에서 참고할 내용
 
 commit 전 검증 기록을 [Before / After 기록지](../templates/before-after-report.md)에 남깁니다.
 PASS면 15단계로 이동하고, BLOCKED면 commit/push 없이 16단계로 이동합니다.

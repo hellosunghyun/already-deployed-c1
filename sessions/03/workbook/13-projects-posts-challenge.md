@@ -196,7 +196,7 @@ Projects 카드의 시각 위계를 고칠 때 가장 안전한 파일 범위 �
 
 </details>
 
-## 저장 체크포인트
+## 다음 단계에서 참고할 내용
 
 이 단계에서는 코드를 수정하거나 commit하지 않습니다.
 현재 page·Component·data 경로, 보존할 schema, `Allowed files 후보`를 후보 브리프와 함께 저장합니다.

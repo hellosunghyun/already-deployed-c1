@@ -160,7 +160,7 @@ Problem에는 현재 보이는 사실을, Direction에는 원하는 변화를 �
 
 </details>
 
-## 저장 체크포인트
+## 다음 단계에서 참고할 내용
 
 완성한 `Where (URL + Viewport) / Target / Evidence / Problem / Direction / Constraint`를 현재 Codex 채팅 또는 개인 노트에 저장합니다. 09단계에서 `D-001.md`에 그대로 옮깁니다.
 
