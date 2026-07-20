@@ -1,0 +1,32 @@
+---
+import posts from "../data/posts.json";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Posts | 홍길동의 홈페이지" description="배포와 AI 협업 과정에서 남긴 글 목록입니다.">
+  <section class="page-intro" aria-labelledby="posts-title">
+    <p class="eyebrow">Posts</p>
+    <h1 id="posts-title">배운 내용을 다음 작업으로 연결하는 기록</h1>
+    <p class="intro">
+      지금은 JSON 샘플 데이터로 목록의 모양을 먼저 만들었습니다. 글 상세 페이지와 외부 콘텐츠 연동은 다음 단계에서 확장할 수 있습니다.
+    </p>
+  </section>
+
+  <section class="post-list" aria-label="글 목록">
+    {
+      posts.map((post) => (
+        <article class="post-item">
+          <div class="post-meta">
+            <time datetime={post.date}>{post.date}</time>
+            <code>{post.slug}</code>
+          </div>
+          <h2>{post.title}</h2>
+          <p>{post.summary}</p>
+          <ul class="tag-list" aria-label={`${post.title} 태그`}>
+            {post.tags.map((tag) => <li>{tag}</li>)}
+          </ul>
+        </article>
+      ))
+    }
+  </section>
+</BaseLayout>

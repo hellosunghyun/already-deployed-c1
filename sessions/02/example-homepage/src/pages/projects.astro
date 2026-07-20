@@ -1,0 +1,19 @@
+---
+import ProjectCard from "../components/ProjectCard.astro";
+import projects from "../data/projects.json";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Projects | 홍길동의 홈페이지" description="직접 만들고 배운 프로젝트 목록입니다.">
+  <section class="page-intro" aria-labelledby="projects-title">
+    <p class="eyebrow">Projects</p>
+    <h1 id="projects-title">작게 만들고 끝까지 확인한 작업</h1>
+    <p class="intro">
+      프로젝트 데이터와 화면 Component를 분리하고, 각 카드에서 실제 상세 페이지로 이동하도록 구성했습니다.
+    </p>
+  </section>
+
+  <section class="card-grid" aria-label="프로젝트 목록">
+    {projects.map((project) => <ProjectCard {...project} />)}
+  </section>
+</BaseLayout>

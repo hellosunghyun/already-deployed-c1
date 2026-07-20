@@ -1,5 +1,9 @@
 # 3회차 웹 리서치 노트
 
+마지막 확인: 2026-07-20
+
+이 문서는 3회차 자료에 직접 반영한 Codex Plan mode, Browser, `AGENTS.md`, DESIGN.md 레퍼런스의 근거와 수업 범위를 기록합니다. 제품 UI와 기능 제공 여부는 플랜·워크스페이스·롤아웃에 따라 달라질 수 있으므로, 수업에는 스크린샷 대체 경로를 함께 둡니다.
+
 ## Codex Plan mode
 
 OpenAI Codex Best Practices는 복잡하거나 모호한 작업에서는 코딩 전에 계획을 세우라고 안내합니다. Plan mode는 Codex가 맥락을 모으고, 필요한 질문을 하고, 구현 전 더 강한 계획을 만들게 하는 용도이며 `/plan` 또는 `Shift`+`Tab`으로 전환할 수 있다고 설명합니다.
@@ -14,17 +18,17 @@ Codex CLI 문서도 `/plan` 입력으로 plan mode에 들어가며, inline promp
 
 - 참고: [OpenAI Developers — Codex CLI slash commands](https://developers.openai.com/codex/cli/slash-commands)
 
-## Codex 브라우저 / Browser
+## Codex Browser
 
-Codex in-app browser는 Codex와 사용자가 같은 렌더링 화면을 보는 기능입니다. 로컬 개발 서버, file-backed preview, 로그인 없는 public page에 적합하며 visual comments를 남길 수 있습니다.
+Codex의 built-in Browser는 사용자와 Codex가 같은 렌더링 화면을 보고 visual comment를 남길 수 있게 합니다. 로컬 앱 확인은 개발 서버를 먼저 실행하고, 터미널에 표시된 실제 Local URL을 열어야 합니다. Codex CLI와 IDE extension에서는 built-in Browser를 사용할 수 없으므로 데스크톱 앱 또는 스크린샷 대체 경로가 필요합니다.
 
 - 참고: [OpenAI Developers — In-app browser](https://developers.openai.com/codex/app/browser)
 
-Browser use는 Codex가 in-app browser를 직접 조작해 클릭, 입력, 렌더링 상태 확인, 스크린샷, read-only page inspection, 수정 검증을 하도록 돕습니다. 공식 문서는 Browser plugin을 설치하고 활성화한 뒤 `@Browser`로 직접 참조할 수 있다고 설명합니다.
+공식 절차는 ChatGPT 데스크톱 앱에서 Codex를 선택하고, Plugins Directory에서 Browser를 설치한 뒤 `@Browser`로 참조하는 순서입니다. 화면 주석은 Annotation mode를 켜고 요소를 클릭하거나 영역을 드래그한 뒤, 주석을 작성·저장하고 채팅에서 반영을 요청합니다.
 
 - 참고: [OpenAI Developers — In-app browser / Browser use](https://developers.openai.com/codex/app/browser)
 
-수업에서는 한국어 UI의 `@브라우저`와 영어 UI의 `@Browser`를 함께 안내합니다. 태그가 자동완성되지 않으면 설정의 브라우저 플러그인을 켜는 절차를 안내합니다.
+공식 문서의 호출명은 `@Browser`입니다. 한국어 UI의 메뉴명과 권한 문구는 버전에 따라 다를 수 있지만, 수업의 권한 기본 선택은 `나 대신 승인`으로 통일합니다. Browser가 없거나 자동완성되지 않으면 일반 브라우저에서 스크린샷을 찍고 `Where (URL + Viewport) / Target / Evidence / Problem / Direction / Constraint`를 함께 전달합니다.
 
 ## AGENTS.md 활용
 
@@ -46,10 +50,14 @@ OpenAI Codex Best Practices는 반복되는 작업 규칙을 `AGENTS.md`에 넣�
 
 ```text
 기존 레포에서 이어서 진행한다.
-Plan mode로 먼저 계획을 받는다.
-브라우저 태그는 @브라우저 / @Browser를 모두 안내한다.
-태그가 안 되면 설정에서 브라우저 플러그인을 켠다.
+화면 증거, 레퍼런스, 선택 영역을 모은 뒤 Plan mode로 최종 계획을 받는다.
+로컬 화면은 데스크톱 앱에서 개발 서버를 먼저 실행하고 실제 Local URL을 연다.
+Plugins Directory에서 Browser를 설치하고 공식 호출명 `@Browser`를 사용한다.
+Annotation mode에서 요소 클릭 또는 영역 드래그 → 주석 작성·저장 → 채팅 요청 순서로 진행한다.
+Browser 권한 기본 선택은 `나 대신 승인`으로 통일한다.
+Browser가 없으면 일반 브라우저 스크린샷과 6좌표를 사용한다.
 레퍼런스는 원하는 요소 하나만 가져온다.
 디자인 백로그는 `docs/design-backlog/`에 남긴다. AGENTS.md에는 해당 위치와 운영 규칙만 남긴다.
+백로그 상태는 `planned → doing → done` 또는 `planned → doing → blocked`로 기록한다.
 일반 디자인 수정에서는 고급 브라우저 디버깅 주제를 다루지 않는다.
 ```

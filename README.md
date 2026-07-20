@@ -34,6 +34,7 @@ Depth 0. 과정 전체
 Depth 1. 회차
   sessions/01/
   sessions/02/
+  sessions/03/
 
 Depth 2. 회차별 자료 유형
   presentation/
@@ -56,7 +57,7 @@ Depth 3. 실제 진행 파일
 |---|---|---|---|---|
 | 1회차 | 작성됨 | AI 에이전트와 함께 첫 배포 루프 만들기 | Astro 첫 버전, GitHub 저장소, GitHub Pages URL | [sessions/01](./sessions/01/) |
 | 2회차 | 작성됨 | 홈페이지를 읽히는 구조로 나누기 | Home / About / Projects / Posts, Layout, Navigation | [sessions/02](./sessions/02/) |
-| 3회차 | 작성됨 | AI에게 디자인 수정과 요구사항을 정확히 전달하기 | Plan mode, 스크린샷/브라우저 주석, DESIGN.md 레퍼런스 토큰, design-backlog 폴더 백로그, 모바일 확인 | [sessions/03](./sessions/03/) |
+| 3회차 | 작성됨 | AI에게 디자인 수정과 요구사항을 정확히 전달하기 | Browser 주석 또는 스크린샷, 프로젝트 루트 `DESIGN.md`, D-001 디자인 백로그, 모바일·build·배포 증거 | [sessions/03](./sessions/03/) |
 | 4회차 | 예정 | Notion을 콘텐츠 관리 도구처럼 연결하기 | Notion DB, Integration, Notion 기반 Posts | 준비 예정 |
 | 5회차 | 예정 | 운영 가능한 개인 홈페이지로 마무리하기 | README, 배포 체크리스트, 선택 도메인, 최종 제출 | 준비 예정 |
 
@@ -123,6 +124,7 @@ sessions/XX/
 - [2회차 발표자료](./sessions/02/presentation/README.md)
 - [2회차 워크북](./sessions/02/workbook/README.md)
 - [2회차 템플릿](./sessions/02/templates/)
+- [2회차 완료 예제](./sessions/02/example-homepage/) — 원본은 직접 수정하지 않고 개인 작업 폴더로 복사해서 사용
 - 목표: Home / About / Projects / Posts 구조와 공통 Layout 만들기
 
 ### 3회차
@@ -131,7 +133,7 @@ sessions/XX/
 - [3회차 발표자료](./sessions/03/presentation/README.md)
 - [3회차 워크북](./sessions/03/workbook/README.md)
 - [3회차 템플릿](./sessions/03/templates/)
-- 목표: 기존 2회차 레포에서 이어서 Plan mode, 브라우저 주석, 레퍼런스 토큰, docs/design-backlog 백로그를 활용해 디자인 수정 요청하기
+- 목표: 기존 2회차 레포에서 이어서 화면 증거와 레퍼런스 토큰을 프로젝트 루트 `DESIGN.md`에 남기고, 최종 Plan과 `docs/design-backlog/D-001.md`를 기준으로 디자인 수정 하나를 검증·배포하기
 
 ## 진행 방식
 
@@ -149,7 +151,8 @@ sessions/XX/
 
 ## 공통 원칙
 
-- 설명은 [Codex](https://chatgpt.com/codex) 기준으로 하되, [Claude Code](https://docs.claude.com/en/docs/claude-code), [Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity) 사용자가 따라올 수 있게 프롬프트를 일반화합니다.
+- 설명은 [Codex](https://chatgpt.com/codex) 기준으로 하되, [Claude Code](https://docs.claude.com/en/docs/claude-code), [Antigravity](https://codelabs.developers.google.com/getting-started-google-antigravity) 사용자도 같은 목표·제약·검증 기준을 사용할 수 있게 프롬프트를 일반화합니다.
+- Codex 데스크톱 환경에서는 Browser 플러그인과 `@Browser`, Annotation을 사용합니다. 해당 기능이 없거나 다른 도구를 쓰는 경우에는 일반 브라우저의 스크린샷에 `Where (URL + Viewport) / Target / Evidence / Problem / Direction / Constraint`를 함께 적어 같은 검토 흐름을 유지합니다.
 - AI에게 바로 실행시키지 않고 먼저 계획을 받습니다.
 - 새 라이브러리, secret, 삭제 명령은 조심스럽게 다룹니다.
 - 결과는 브라우저, 로그, `npm run build`, GitHub Actions, GitHub Pages URL로 확인합니다.

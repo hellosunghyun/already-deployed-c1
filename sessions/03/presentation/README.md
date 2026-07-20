@@ -1,62 +1,81 @@
 # 3회차 발표자료 인덱스
 
-이 발표자료는 3회차 실습 전에 공통 언어를 맞추기 위한 Markdown 슬라이드입니다.
+이 발표자료는 3회차 실습 전에 **화면 증거를 작은 구현과 배포 기록으로 연결하는 공통 흐름**을 맞추기 위한 Markdown 슬라이드입니다.
 
 ## 발표 시간 목표
 
-권장 발표 시간은 25~30분입니다.
-목표는 디자인 이론 강의가 아니라, Codex에게 **화면 기반 요구사항**을 정확히 전달하는 흐름을 보여주는 것입니다.
+총 30분입니다. 개념·전환은 합계 26분, **end-to-end 라이브 데모는 별도 4분**으로 운영합니다.
 
-## 이번 버전에서 강조할 것
+## 이번 버전의 canonical 흐름
 
-- 새로 시작하지 않고 기존 2회차 레포와 Codex 채팅에서 이어서 작업
-- Plan mode로 계획을 먼저 받기
-- 한국어 UI `@브라우저`, 영어 UI `@Browser` 모두 안내
-- 태그가 안 될 때 설정에서 브라우저 활성화
-- 레퍼런스는 복제하지 않고 원하는 요소 하나만 토큰으로 추출
-- AGENTS.md 규칙과 `docs/design-backlog/` 백로그 연결하기
-- 모바일과 build 검증
+```text
+기존 2회차 레포
+→ 개발 서버와 실제 Local URL
+→ Browser 설치·@Browser·권한 "나 대신 승인"
+→ baseline·주석·6좌표
+→ 레퍼런스·토큰·요소 하나
+→ 최신 Plan 확인
+→ AGENTS.md + DESIGN.md + D-001
+→ 구현 모드 전환
+→ 선택한 항목 하나 실행
+→ 현재 desktop + 390x844 + 키보드 + build
+→ commit / push / Actions / Pages
+→ D-001 done 또는 blocked
+```
+
+Browser를 사용할 수 없는 환경에서는 같은 흐름을 **일반 브라우저의 스크린샷과 텍스트 6좌표**로 진행합니다.
 
 ## 30분 진행 리듬
 
-| 시간 | 슬라이드 | 진행 방식 |
+| 경과 시간(분:초) | 슬라이드 | 진행 방식 |
 |---|---|---|
-| 0:00-0:05 | 01-04 | 3회차 위치, 범위, 성공 기준 |
-| 0:05-0:12 | 05-10 | 기존 레포, Plan mode, 브라우저 태그와 설정 |
-| 0:12-0:20 | 11-19 | 작은 수정, 시각 위계, 모바일, 접근성 |
-| 0:20-0:26 | 20-23 | 좋은 프롬프트, 레퍼런스 토큰, 원하는 요소 하나 |
-| 0:26-0:30 | 24-28 | 챌린지, 검증 루프, 워크북 전환 |
+| 00:00-04:00 | 01-04 | 3회차 위치, 결과물, 누적 성공 기준 |
+| 04:00-09:00 | 05-08 | 기존 레포, 서버·실제 URL, Browser, baseline·주석 |
+| 09:00-14:00 | 09-12 | 6좌표, 완성형 요청, 레퍼런스, 요소 하나 선택 |
+| 14:00-18:00 | 13-16 | 셋 중 하나 선택, 최신 Plan, AGENTS.md·DESIGN.md·D-001, 구현 모드 |
+| 18:00-22:00 | 17-20 | **4분 end-to-end 라이브 데모** |
+| 22:00-26:00 | 21-23 | 필수 검증, 배포 확인, done·blocked 기록 |
+| 26:00-29:00 | 24-27 | 셋 중 하나 선택, 실패 분기와 증거 묶음 |
+| 29:00-30:00 | 28 | 워크북 전환 |
+
+### 라이브 데모 사전 준비
+
+- 2회차 예제 레포와 의존성 설치 완료
+- dev 서버 실행 명령과 터미널을 화면에 준비
+- 실제 Local URL, Browser, Codex 채팅, GitHub Actions·Pages 탭을 미리 열어 두기
+- `D-001`에 적용할 작은 CSS 변경 1개와 before 화면 준비
+- 네트워크가 늦을 때 보여줄 직전 green Actions·Pages 기록 준비
 
 ## 슬라이드 목록
 
-1. [Slide 01](./slides/01.md)
-2. [Slide 02](./slides/02.md)
-3. [Slide 03](./slides/03.md)
-4. [Slide 04](./slides/04.md)
-5. [Slide 05](./slides/05.md)
-6. [Slide 06](./slides/06.md)
-7. [Slide 07](./slides/07.md)
-8. [Slide 08](./slides/08.md)
-9. [Slide 09](./slides/09.md)
-10. [Slide 10](./slides/10.md)
-11. [Slide 11](./slides/11.md)
-12. [Slide 12](./slides/12.md)
-13. [Slide 13](./slides/13.md)
-14. [Slide 14](./slides/14.md)
-15. [Slide 15](./slides/15.md)
-16. [Slide 16](./slides/16.md)
-17. [Slide 17](./slides/17.md)
-18. [Slide 18](./slides/18.md)
-19. [Slide 19](./slides/19.md)
-20. [Slide 20](./slides/20.md)
-21. [Slide 21](./slides/21.md)
-22. [Slide 22](./slides/22.md)
-23. [Slide 23](./slides/23.md)
-24. [Slide 24](./slides/24.md)
-25. [Slide 25](./slides/25.md)
-26. [Slide 26](./slides/26.md)
-27. [Slide 27](./slides/27.md)
-28. [Slide 28](./slides/28.md)
+1. [화면 증거를 배포 기록까지 연결하기](./slides/01.md)
+2. [2회차 결과에서 이어서 시작합니다](./slides/02.md)
+3. [오늘 남길 결과물](./slides/03.md)
+4. [성공 기준은 누적형입니다](./slides/04.md)
+5. [시작 Gate와 복구 경로](./slides/05.md)
+6. [개발 서버와 실제 Local URL](./slides/06.md)
+7. [Browser 설치·권한·fallback](./slides/07.md)
+8. [Baseline과 Browser 주석](./slides/08.md)
+9. [좋은 디자인 요청의 6좌표](./slides/09.md)
+10. [6좌표 완성형 프롬프트](./slides/10.md)
+11. [레퍼런스는 토큰으로 번역합니다](./slides/11.md)
+12. [토큰 브리프에서 요소 하나만 고릅니다](./slides/12.md)
+13. [셋 중 하나만 선택합니다](./slides/13.md)
+14. [증거 뒤에 최신 Plan을 받습니다](./slides/14.md)
+15. [AGENTS.md·DESIGN.md·D-001의 역할](./slides/15.md)
+16. [D-001은 실행 가능한 작업 계약서입니다](./slides/16.md)
+17. [라이브 데모 1 — 레포·서버·실제 URL](./slides/17.md)
+18. [라이브 데모 2 — baseline·주석·6좌표](./slides/18.md)
+19. [라이브 데모 3 — 문서·Plan·한 항목 수정](./slides/19.md)
+20. [라이브 데모 4 — 검증·배포·기록](./slides/20.md)
+21. [원인 확인→수정→필수 검증](./slides/21.md)
+22. [commit부터 Pages까지 확인합니다](./slides/22.md)
+23. [D-001은 done 또는 blocked로 닫습니다](./slides/23.md)
+24. [선택 A — Home hero](./slides/24.md)
+25. [선택 B — Navigation·레이아웃](./slides/25.md)
+26. [선택 C — Projects·Posts](./slides/26.md)
+27. [실패 분기와 증거 묶음](./slides/27.md)
+28. [이제 워크북으로 갑니다](./slides/28.md)
 
 ## 발표 후 이동
 
