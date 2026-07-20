@@ -1,0 +1,16 @@
+[
+  {
+    "title": "첫 배포를 하며 배운 것",
+    "slug": "first-deploy-reflection",
+    "date": "2026-05-19",
+    "summary": "Astro와 GitHub Pages로 개인 홈페이지를 처음 배포하며 배운 점을 정리합니다.",
+    "tags": ["Astro", "GitHub Pages", "회고"]
+  },
+  {
+    "title": "AI에게 코딩을 맡길 때 필요한 맥락",
+    "slug": "ai-coding-context",
+    "date": "2026-05-19",
+    "summary": "좋은 프롬프트가 왜 필요한지, 계획과 검증을 어떻게 요청하는지 정리합니다.",
+    "tags": ["Codex", "AI", "작업 기록"]
+  }
+]

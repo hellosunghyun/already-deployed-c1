@@ -1,0 +1,61 @@
+---
+import projects from "../../data/projects.json";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+interface Project {
+  title: string;
+  description: string;
+  role: string;
+  tools: string[];
+  result: string;
+  detail: string;
+  slug: string;
+}
+
+export function getStaticPaths() {
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+const projectsUrl = `${import.meta.env.BASE_URL}projects/`;
+---
+
+<BaseLayout title={`${project.title} | Projects`} description={project.description}>
+  <article class="project-detail">
+    <a class="back-link" href={projectsUrl}><span aria-hidden="true">←</span> Projects 목록</a>
+
+    <header class="page-intro compact">
+      <p class="eyebrow">Project Detail</p>
+      <h1>{project.title}</h1>
+      <p class="intro">{project.description}</p>
+    </header>
+
+    <div class="detail-grid">
+      <section aria-labelledby="background-title">
+        <h2 id="background-title">배경과 과정</h2>
+        <p>{project.detail}</p>
+      </section>
+      <section aria-labelledby="role-title">
+        <h2 id="role-title">내가 한 일</h2>
+        <p>{project.role}</p>
+      </section>
+      <section aria-labelledby="result-title">
+        <h2 id="result-title">결과와 배운 점</h2>
+        <p>{project.result}</p>
+      </section>
+      <section aria-labelledby="tools-title">
+        <h2 id="tools-title">사용한 도구</h2>
+        <ul class="tag-list" aria-labelledby="tools-title">
+          {project.tools.map((tool) => <li>{tool}</li>)}
+        </ul>
+      </section>
+    </div>
+  </article>
+</BaseLayout>
